@@ -1,0 +1,2785 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.menu .logo {
+  width: 60px;
+}
+.menu .reg-login {
+  padding: 5px;
+  background: #e0e0e0;
+  border-radius: 40px;
+  gap: 20px;
+}
+.menu .reg-login button {
+  padding: 10px;
+  border-radius: 30px;
+  width: 100px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.menu .reg-login button:nth-child(2) {
+  background: #fff;
+}
+.menu .reg-login button:hover {
+  color: #a2845e;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 1100px;
+  height: 600px;
+}
+.home-container .hero {
+  display: flex;
+  gap: 20px;
+}
+.home-container .hero .col-1,
+.home-container .hero .col-3 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.home-container .hero .col-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.home-container .hero .col-1 {
+  position: relative;
+  padding-top: 26%;
+}
+.home-container .hero .col-1 h1 {
+  line-height: 47px;
+  font-size: 50px;
+  position: absolute;
+  width: 400px;
+  top: 0;
+  font-weight: 400;
+}
+.home-container .hero .col-1 h1 span:nth-child(2) {
+  color: #a2845e;
+}
+.home-container .hero .col-1 h1:nth-child(2)::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 5px;
+  bottom: -30px;
+  background: #e0e0e0;
+  border-radius: 2.5px;
+}
+.home-container .hero .col-1 h1:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  background: none;
+  bottom: -5px;
+  right: 50px;
+  border-radius: 20px;
+  box-shadow: -25px 0px 0px 0px #fff;
+  -webkit-box-shadow: -25px 0px 0px 0px #fff;
+  -moz-box-shadow: -25px 0px 0px 0px #fff;
+}
+.home-container .hero .col-1 h1:nth-child(1) {
+  color: none;
+}
+.home-container .hero .col-1 h1:nth-child(1) span {
+  background: #fff;
+  border-radius: 20px;
+}
+.home-container .hero .col-1 h1:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 72px;
+  background: #fff;
+  top: -12px;
+  right: 60px;
+  border-radius: 20px;
+}
+.home-container .hero .col-1 h1:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 72px;
+  background: #fff;
+  bottom: 34px;
+  right: 60px;
+  border-radius: 20px;
+}
+.home-container .hero .col-1 h1:nth-child(1) b {
+  position: absolute;
+  width: 60px;
+  height: 71px;
+  background: none;
+  top: 59px;
+  right: 50px;
+  border-radius: 20px;
+  box-shadow: -25px 0px 0px 0px #fff;
+  -webkit-box-shadow: -25px 0px 0px 0px #fff;
+  -moz-box-shadow: -25px 0px 0px 0px #fff;
+}
+.home-container .hero .col-1 h1:nth-child(1) i {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: transparent;
+  top: 0;
+  right: 0px;
+  z-index: 10;
+  border-top-left-radius: 20px;
+  box-shadow: -10px -10px 0 #fff;
+}
+.home-container .hero .col-1 .sub-mail-btns {
+  display: flex;
+  gap: 10px;
+}
+.home-container .hero .col-1 .sub-mail-btns button {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out all;
+  background: #e0e0e0;
+}
+.home-container .hero .col-1 .sub-mail-btns button:nth-child(1) {
+  background: #b2beb5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.home-container .hero .col-1 .sub-mail-btns button:nth-child(1):hover {
+  color: #f5fffa;
+}
+.home-container .hero .col-1 .sub-mail-btns button:nth-child(2) {
+  border-radius: 50%;
+  padding: 15px;
+}
+.home-container .hero .col-1 .sub-mail-btns button:hover {
+  color: #a2845e;
+}
+.home-container .hero .f {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+.home-container .hero .f h3 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  text-align: end;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 20px;
+  width: 70%;
+  display: flex;
+  gap: 10px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.home-container .hero .f .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transition: 0.5s ease-in-out all;
+}
+.home-container .hero .f button {
+  padding: 10px 20px;
+  background: none;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: #e0e0e0;
+  border-radius: 20px;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.home-container .hero .f button span {
+  font-size: 17px;
+}
+.home-container .hero .f button:hover {
+  color: #a2845e;
+}
+.home-container .hero .f:hover .bg {
+  transform: scale(1.1);
+}
+.home-container .hero .f.f1, .home-container .hero .f.f2 {
+  height: 240px;
+}
+.home-container .hero .f.f1 .bg, .home-container .hero .f.f2 .bg {
+  width: 100%;
+}
+.home-container .hero .f.f3 {
+  height: 300px;
+}
+.home-container .hero .f.f3 .bg {
+  height: 100%;
+}
+.home-container .hero .f.f4 {
+  height: 180px;
+}
+.home-container .hero .f.f4 .bg {
+  height: 100%;
+}
+
+.pop {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out all;
+  overflow: hidden;
+  z-index: 999;
+}
+.pop.active {
+  width: 100%;
+  height: 100%;
+}
+.pop .reg-form,
+.pop .login-form,
+.pop .cont-form,
+.pop .f-win {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  background: #fff;
+  border-radius: 20px;
+  padding-right: 20px;
+  gap: 40px;
+}
+.pop .reg-form .cls-btn,
+.pop .login-form .cls-btn,
+.pop .cont-form .cls-btn,
+.pop .f-win .cls-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background: #e0e0e0;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out all;
+}
+.pop .reg-form .cls-btn:hover,
+.pop .login-form .cls-btn:hover,
+.pop .cont-form .cls-btn:hover,
+.pop .f-win .cls-btn:hover {
+  color: #a2845e;
+}
+.pop .reg-form .login-img,
+.pop .reg-form .reg-img,
+.pop .reg-form .cont-img,
+.pop .reg-form .f-img,
+.pop .login-form .login-img,
+.pop .login-form .reg-img,
+.pop .login-form .cont-img,
+.pop .login-form .f-img,
+.pop .cont-form .login-img,
+.pop .cont-form .reg-img,
+.pop .cont-form .cont-img,
+.pop .cont-form .f-img,
+.pop .f-win .login-img,
+.pop .f-win .reg-img,
+.pop .f-win .cont-img,
+.pop .f-win .f-img {
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.pop .reg-form .login-img img,
+.pop .reg-form .reg-img img,
+.pop .reg-form .cont-img img,
+.pop .reg-form .f-img img,
+.pop .login-form .login-img img,
+.pop .login-form .reg-img img,
+.pop .login-form .cont-img img,
+.pop .login-form .f-img img,
+.pop .cont-form .login-img img,
+.pop .cont-form .reg-img img,
+.pop .cont-form .cont-img img,
+.pop .cont-form .f-img img,
+.pop .f-win .login-img img,
+.pop .f-win .reg-img img,
+.pop .f-win .cont-img img,
+.pop .f-win .f-img img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -70%;
+}
+.pop .reg-form .reg-body,
+.pop .reg-form .login-body,
+.pop .reg-form .cont-body,
+.pop .reg-form .f-info,
+.pop .login-form .reg-body,
+.pop .login-form .login-body,
+.pop .login-form .cont-body,
+.pop .login-form .f-info,
+.pop .cont-form .reg-body,
+.pop .cont-form .login-body,
+.pop .cont-form .cont-body,
+.pop .cont-form .f-info,
+.pop .f-win .reg-body,
+.pop .f-win .login-body,
+.pop .f-win .cont-body,
+.pop .f-win .f-info {
+  width: 50%;
+  padding-top: 70px;
+  padding-right: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.pop .reg-form .reg-body h1,
+.pop .reg-form .login-body h1,
+.pop .reg-form .cont-body h1,
+.pop .reg-form .f-info h1,
+.pop .login-form .reg-body h1,
+.pop .login-form .login-body h1,
+.pop .login-form .cont-body h1,
+.pop .login-form .f-info h1,
+.pop .cont-form .reg-body h1,
+.pop .cont-form .login-body h1,
+.pop .cont-form .cont-body h1,
+.pop .cont-form .f-info h1,
+.pop .f-win .reg-body h1,
+.pop .f-win .login-body h1,
+.pop .f-win .cont-body h1,
+.pop .f-win .f-info h1 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 47px;
+  color: #a2845e;
+  position: relative;
+}
+.pop .reg-form .reg-body h1::before,
+.pop .reg-form .login-body h1::before,
+.pop .reg-form .cont-body h1::before,
+.pop .reg-form .f-info h1::before,
+.pop .login-form .reg-body h1::before,
+.pop .login-form .login-body h1::before,
+.pop .login-form .cont-body h1::before,
+.pop .login-form .f-info h1::before,
+.pop .cont-form .reg-body h1::before,
+.pop .cont-form .login-body h1::before,
+.pop .cont-form .cont-body h1::before,
+.pop .cont-form .f-info h1::before,
+.pop .f-win .reg-body h1::before,
+.pop .f-win .login-body h1::before,
+.pop .f-win .cont-body h1::before,
+.pop .f-win .f-info h1::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 5px;
+  bottom: -20px;
+  background: #e0e0e0;
+  border-radius: 2.5px;
+}
+.pop .reg-form .reg-body .reg-info,
+.pop .reg-form .reg-body .login-info,
+.pop .reg-form .reg-body .cont-info,
+.pop .reg-form .login-body .reg-info,
+.pop .reg-form .login-body .login-info,
+.pop .reg-form .login-body .cont-info,
+.pop .reg-form .cont-body .reg-info,
+.pop .reg-form .cont-body .login-info,
+.pop .reg-form .cont-body .cont-info,
+.pop .reg-form .f-info .reg-info,
+.pop .reg-form .f-info .login-info,
+.pop .reg-form .f-info .cont-info,
+.pop .login-form .reg-body .reg-info,
+.pop .login-form .reg-body .login-info,
+.pop .login-form .reg-body .cont-info,
+.pop .login-form .login-body .reg-info,
+.pop .login-form .login-body .login-info,
+.pop .login-form .login-body .cont-info,
+.pop .login-form .cont-body .reg-info,
+.pop .login-form .cont-body .login-info,
+.pop .login-form .cont-body .cont-info,
+.pop .login-form .f-info .reg-info,
+.pop .login-form .f-info .login-info,
+.pop .login-form .f-info .cont-info,
+.pop .cont-form .reg-body .reg-info,
+.pop .cont-form .reg-body .login-info,
+.pop .cont-form .reg-body .cont-info,
+.pop .cont-form .login-body .reg-info,
+.pop .cont-form .login-body .login-info,
+.pop .cont-form .login-body .cont-info,
+.pop .cont-form .cont-body .reg-info,
+.pop .cont-form .cont-body .login-info,
+.pop .cont-form .cont-body .cont-info,
+.pop .cont-form .f-info .reg-info,
+.pop .cont-form .f-info .login-info,
+.pop .cont-form .f-info .cont-info,
+.pop .f-win .reg-body .reg-info,
+.pop .f-win .reg-body .login-info,
+.pop .f-win .reg-body .cont-info,
+.pop .f-win .login-body .reg-info,
+.pop .f-win .login-body .login-info,
+.pop .f-win .login-body .cont-info,
+.pop .f-win .cont-body .reg-info,
+.pop .f-win .cont-body .login-info,
+.pop .f-win .cont-body .cont-info,
+.pop .f-win .f-info .reg-info,
+.pop .f-win .f-info .login-info,
+.pop .f-win .f-info .cont-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.pop .reg-form .reg-body .reg-info div,
+.pop .reg-form .reg-body .login-info div,
+.pop .reg-form .reg-body .cont-info div,
+.pop .reg-form .login-body .reg-info div,
+.pop .reg-form .login-body .login-info div,
+.pop .reg-form .login-body .cont-info div,
+.pop .reg-form .cont-body .reg-info div,
+.pop .reg-form .cont-body .login-info div,
+.pop .reg-form .cont-body .cont-info div,
+.pop .reg-form .f-info .reg-info div,
+.pop .reg-form .f-info .login-info div,
+.pop .reg-form .f-info .cont-info div,
+.pop .login-form .reg-body .reg-info div,
+.pop .login-form .reg-body .login-info div,
+.pop .login-form .reg-body .cont-info div,
+.pop .login-form .login-body .reg-info div,
+.pop .login-form .login-body .login-info div,
+.pop .login-form .login-body .cont-info div,
+.pop .login-form .cont-body .reg-info div,
+.pop .login-form .cont-body .login-info div,
+.pop .login-form .cont-body .cont-info div,
+.pop .login-form .f-info .reg-info div,
+.pop .login-form .f-info .login-info div,
+.pop .login-form .f-info .cont-info div,
+.pop .cont-form .reg-body .reg-info div,
+.pop .cont-form .reg-body .login-info div,
+.pop .cont-form .reg-body .cont-info div,
+.pop .cont-form .login-body .reg-info div,
+.pop .cont-form .login-body .login-info div,
+.pop .cont-form .login-body .cont-info div,
+.pop .cont-form .cont-body .reg-info div,
+.pop .cont-form .cont-body .login-info div,
+.pop .cont-form .cont-body .cont-info div,
+.pop .cont-form .f-info .reg-info div,
+.pop .cont-form .f-info .login-info div,
+.pop .cont-form .f-info .cont-info div,
+.pop .f-win .reg-body .reg-info div,
+.pop .f-win .reg-body .login-info div,
+.pop .f-win .reg-body .cont-info div,
+.pop .f-win .login-body .reg-info div,
+.pop .f-win .login-body .login-info div,
+.pop .f-win .login-body .cont-info div,
+.pop .f-win .cont-body .reg-info div,
+.pop .f-win .cont-body .login-info div,
+.pop .f-win .cont-body .cont-info div,
+.pop .f-win .f-info .reg-info div,
+.pop .f-win .f-info .login-info div,
+.pop .f-win .f-info .cont-info div {
+  position: relative;
+}
+.pop .reg-form .reg-body .reg-info div span,
+.pop .reg-form .reg-body .login-info div span,
+.pop .reg-form .reg-body .cont-info div span,
+.pop .reg-form .login-body .reg-info div span,
+.pop .reg-form .login-body .login-info div span,
+.pop .reg-form .login-body .cont-info div span,
+.pop .reg-form .cont-body .reg-info div span,
+.pop .reg-form .cont-body .login-info div span,
+.pop .reg-form .cont-body .cont-info div span,
+.pop .reg-form .f-info .reg-info div span,
+.pop .reg-form .f-info .login-info div span,
+.pop .reg-form .f-info .cont-info div span,
+.pop .login-form .reg-body .reg-info div span,
+.pop .login-form .reg-body .login-info div span,
+.pop .login-form .reg-body .cont-info div span,
+.pop .login-form .login-body .reg-info div span,
+.pop .login-form .login-body .login-info div span,
+.pop .login-form .login-body .cont-info div span,
+.pop .login-form .cont-body .reg-info div span,
+.pop .login-form .cont-body .login-info div span,
+.pop .login-form .cont-body .cont-info div span,
+.pop .login-form .f-info .reg-info div span,
+.pop .login-form .f-info .login-info div span,
+.pop .login-form .f-info .cont-info div span,
+.pop .cont-form .reg-body .reg-info div span,
+.pop .cont-form .reg-body .login-info div span,
+.pop .cont-form .reg-body .cont-info div span,
+.pop .cont-form .login-body .reg-info div span,
+.pop .cont-form .login-body .login-info div span,
+.pop .cont-form .login-body .cont-info div span,
+.pop .cont-form .cont-body .reg-info div span,
+.pop .cont-form .cont-body .login-info div span,
+.pop .cont-form .cont-body .cont-info div span,
+.pop .cont-form .f-info .reg-info div span,
+.pop .cont-form .f-info .login-info div span,
+.pop .cont-form .f-info .cont-info div span,
+.pop .f-win .reg-body .reg-info div span,
+.pop .f-win .reg-body .login-info div span,
+.pop .f-win .reg-body .cont-info div span,
+.pop .f-win .login-body .reg-info div span,
+.pop .f-win .login-body .login-info div span,
+.pop .f-win .login-body .cont-info div span,
+.pop .f-win .cont-body .reg-info div span,
+.pop .f-win .cont-body .login-info div span,
+.pop .f-win .cont-body .cont-info div span,
+.pop .f-win .f-info .reg-info div span,
+.pop .f-win .f-info .login-info div span,
+.pop .f-win .f-info .cont-info div span {
+  position: absolute;
+  font-size: 13px;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s ease-in-out all;
+}
+.pop .reg-form .reg-body .reg-info div input,
+.pop .reg-form .reg-body .reg-info div textarea,
+.pop .reg-form .reg-body .login-info div input,
+.pop .reg-form .reg-body .login-info div textarea,
+.pop .reg-form .reg-body .cont-info div input,
+.pop .reg-form .reg-body .cont-info div textarea,
+.pop .reg-form .login-body .reg-info div input,
+.pop .reg-form .login-body .reg-info div textarea,
+.pop .reg-form .login-body .login-info div input,
+.pop .reg-form .login-body .login-info div textarea,
+.pop .reg-form .login-body .cont-info div input,
+.pop .reg-form .login-body .cont-info div textarea,
+.pop .reg-form .cont-body .reg-info div input,
+.pop .reg-form .cont-body .reg-info div textarea,
+.pop .reg-form .cont-body .login-info div input,
+.pop .reg-form .cont-body .login-info div textarea,
+.pop .reg-form .cont-body .cont-info div input,
+.pop .reg-form .cont-body .cont-info div textarea,
+.pop .reg-form .f-info .reg-info div input,
+.pop .reg-form .f-info .reg-info div textarea,
+.pop .reg-form .f-info .login-info div input,
+.pop .reg-form .f-info .login-info div textarea,
+.pop .reg-form .f-info .cont-info div input,
+.pop .reg-form .f-info .cont-info div textarea,
+.pop .login-form .reg-body .reg-info div input,
+.pop .login-form .reg-body .reg-info div textarea,
+.pop .login-form .reg-body .login-info div input,
+.pop .login-form .reg-body .login-info div textarea,
+.pop .login-form .reg-body .cont-info div input,
+.pop .login-form .reg-body .cont-info div textarea,
+.pop .login-form .login-body .reg-info div input,
+.pop .login-form .login-body .reg-info div textarea,
+.pop .login-form .login-body .login-info div input,
+.pop .login-form .login-body .login-info div textarea,
+.pop .login-form .login-body .cont-info div input,
+.pop .login-form .login-body .cont-info div textarea,
+.pop .login-form .cont-body .reg-info div input,
+.pop .login-form .cont-body .reg-info div textarea,
+.pop .login-form .cont-body .login-info div input,
+.pop .login-form .cont-body .login-info div textarea,
+.pop .login-form .cont-body .cont-info div input,
+.pop .login-form .cont-body .cont-info div textarea,
+.pop .login-form .f-info .reg-info div input,
+.pop .login-form .f-info .reg-info div textarea,
+.pop .login-form .f-info .login-info div input,
+.pop .login-form .f-info .login-info div textarea,
+.pop .login-form .f-info .cont-info div input,
+.pop .login-form .f-info .cont-info div textarea,
+.pop .cont-form .reg-body .reg-info div input,
+.pop .cont-form .reg-body .reg-info div textarea,
+.pop .cont-form .reg-body .login-info div input,
+.pop .cont-form .reg-body .login-info div textarea,
+.pop .cont-form .reg-body .cont-info div input,
+.pop .cont-form .reg-body .cont-info div textarea,
+.pop .cont-form .login-body .reg-info div input,
+.pop .cont-form .login-body .reg-info div textarea,
+.pop .cont-form .login-body .login-info div input,
+.pop .cont-form .login-body .login-info div textarea,
+.pop .cont-form .login-body .cont-info div input,
+.pop .cont-form .login-body .cont-info div textarea,
+.pop .cont-form .cont-body .reg-info div input,
+.pop .cont-form .cont-body .reg-info div textarea,
+.pop .cont-form .cont-body .login-info div input,
+.pop .cont-form .cont-body .login-info div textarea,
+.pop .cont-form .cont-body .cont-info div input,
+.pop .cont-form .cont-body .cont-info div textarea,
+.pop .cont-form .f-info .reg-info div input,
+.pop .cont-form .f-info .reg-info div textarea,
+.pop .cont-form .f-info .login-info div input,
+.pop .cont-form .f-info .login-info div textarea,
+.pop .cont-form .f-info .cont-info div input,
+.pop .cont-form .f-info .cont-info div textarea,
+.pop .f-win .reg-body .reg-info div input,
+.pop .f-win .reg-body .reg-info div textarea,
+.pop .f-win .reg-body .login-info div input,
+.pop .f-win .reg-body .login-info div textarea,
+.pop .f-win .reg-body .cont-info div input,
+.pop .f-win .reg-body .cont-info div textarea,
+.pop .f-win .login-body .reg-info div input,
+.pop .f-win .login-body .reg-info div textarea,
+.pop .f-win .login-body .login-info div input,
+.pop .f-win .login-body .login-info div textarea,
+.pop .f-win .login-body .cont-info div input,
+.pop .f-win .login-body .cont-info div textarea,
+.pop .f-win .cont-body .reg-info div input,
+.pop .f-win .cont-body .reg-info div textarea,
+.pop .f-win .cont-body .login-info div input,
+.pop .f-win .cont-body .login-info div textarea,
+.pop .f-win .cont-body .cont-info div input,
+.pop .f-win .cont-body .cont-info div textarea,
+.pop .f-win .f-info .reg-info div input,
+.pop .f-win .f-info .reg-info div textarea,
+.pop .f-win .f-info .login-info div input,
+.pop .f-win .f-info .login-info div textarea,
+.pop .f-win .f-info .cont-info div input,
+.pop .f-win .f-info .cont-info div textarea {
+  height: 40px;
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  background: #e0e0e0;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out all;
+  resize: none;
+  padding: 20px;
+  padding-left: 90px;
+}
+.pop .reg-form .reg-body .reg-info div input:focus, .pop .reg-form .reg-body .reg-info div input.not-empty,
+.pop .reg-form .reg-body .reg-info div textarea:focus,
+.pop .reg-form .reg-body .reg-info div textarea.not-empty,
+.pop .reg-form .reg-body .login-info div input:focus,
+.pop .reg-form .reg-body .login-info div input.not-empty,
+.pop .reg-form .reg-body .login-info div textarea:focus,
+.pop .reg-form .reg-body .login-info div textarea.not-empty,
+.pop .reg-form .reg-body .cont-info div input:focus,
+.pop .reg-form .reg-body .cont-info div input.not-empty,
+.pop .reg-form .reg-body .cont-info div textarea:focus,
+.pop .reg-form .reg-body .cont-info div textarea.not-empty,
+.pop .reg-form .login-body .reg-info div input:focus,
+.pop .reg-form .login-body .reg-info div input.not-empty,
+.pop .reg-form .login-body .reg-info div textarea:focus,
+.pop .reg-form .login-body .reg-info div textarea.not-empty,
+.pop .reg-form .login-body .login-info div input:focus,
+.pop .reg-form .login-body .login-info div input.not-empty,
+.pop .reg-form .login-body .login-info div textarea:focus,
+.pop .reg-form .login-body .login-info div textarea.not-empty,
+.pop .reg-form .login-body .cont-info div input:focus,
+.pop .reg-form .login-body .cont-info div input.not-empty,
+.pop .reg-form .login-body .cont-info div textarea:focus,
+.pop .reg-form .login-body .cont-info div textarea.not-empty,
+.pop .reg-form .cont-body .reg-info div input:focus,
+.pop .reg-form .cont-body .reg-info div input.not-empty,
+.pop .reg-form .cont-body .reg-info div textarea:focus,
+.pop .reg-form .cont-body .reg-info div textarea.not-empty,
+.pop .reg-form .cont-body .login-info div input:focus,
+.pop .reg-form .cont-body .login-info div input.not-empty,
+.pop .reg-form .cont-body .login-info div textarea:focus,
+.pop .reg-form .cont-body .login-info div textarea.not-empty,
+.pop .reg-form .cont-body .cont-info div input:focus,
+.pop .reg-form .cont-body .cont-info div input.not-empty,
+.pop .reg-form .cont-body .cont-info div textarea:focus,
+.pop .reg-form .cont-body .cont-info div textarea.not-empty,
+.pop .reg-form .f-info .reg-info div input:focus,
+.pop .reg-form .f-info .reg-info div input.not-empty,
+.pop .reg-form .f-info .reg-info div textarea:focus,
+.pop .reg-form .f-info .reg-info div textarea.not-empty,
+.pop .reg-form .f-info .login-info div input:focus,
+.pop .reg-form .f-info .login-info div input.not-empty,
+.pop .reg-form .f-info .login-info div textarea:focus,
+.pop .reg-form .f-info .login-info div textarea.not-empty,
+.pop .reg-form .f-info .cont-info div input:focus,
+.pop .reg-form .f-info .cont-info div input.not-empty,
+.pop .reg-form .f-info .cont-info div textarea:focus,
+.pop .reg-form .f-info .cont-info div textarea.not-empty,
+.pop .login-form .reg-body .reg-info div input:focus,
+.pop .login-form .reg-body .reg-info div input.not-empty,
+.pop .login-form .reg-body .reg-info div textarea:focus,
+.pop .login-form .reg-body .reg-info div textarea.not-empty,
+.pop .login-form .reg-body .login-info div input:focus,
+.pop .login-form .reg-body .login-info div input.not-empty,
+.pop .login-form .reg-body .login-info div textarea:focus,
+.pop .login-form .reg-body .login-info div textarea.not-empty,
+.pop .login-form .reg-body .cont-info div input:focus,
+.pop .login-form .reg-body .cont-info div input.not-empty,
+.pop .login-form .reg-body .cont-info div textarea:focus,
+.pop .login-form .reg-body .cont-info div textarea.not-empty,
+.pop .login-form .login-body .reg-info div input:focus,
+.pop .login-form .login-body .reg-info div input.not-empty,
+.pop .login-form .login-body .reg-info div textarea:focus,
+.pop .login-form .login-body .reg-info div textarea.not-empty,
+.pop .login-form .login-body .login-info div input:focus,
+.pop .login-form .login-body .login-info div input.not-empty,
+.pop .login-form .login-body .login-info div textarea:focus,
+.pop .login-form .login-body .login-info div textarea.not-empty,
+.pop .login-form .login-body .cont-info div input:focus,
+.pop .login-form .login-body .cont-info div input.not-empty,
+.pop .login-form .login-body .cont-info div textarea:focus,
+.pop .login-form .login-body .cont-info div textarea.not-empty,
+.pop .login-form .cont-body .reg-info div input:focus,
+.pop .login-form .cont-body .reg-info div input.not-empty,
+.pop .login-form .cont-body .reg-info div textarea:focus,
+.pop .login-form .cont-body .reg-info div textarea.not-empty,
+.pop .login-form .cont-body .login-info div input:focus,
+.pop .login-form .cont-body .login-info div input.not-empty,
+.pop .login-form .cont-body .login-info div textarea:focus,
+.pop .login-form .cont-body .login-info div textarea.not-empty,
+.pop .login-form .cont-body .cont-info div input:focus,
+.pop .login-form .cont-body .cont-info div input.not-empty,
+.pop .login-form .cont-body .cont-info div textarea:focus,
+.pop .login-form .cont-body .cont-info div textarea.not-empty,
+.pop .login-form .f-info .reg-info div input:focus,
+.pop .login-form .f-info .reg-info div input.not-empty,
+.pop .login-form .f-info .reg-info div textarea:focus,
+.pop .login-form .f-info .reg-info div textarea.not-empty,
+.pop .login-form .f-info .login-info div input:focus,
+.pop .login-form .f-info .login-info div input.not-empty,
+.pop .login-form .f-info .login-info div textarea:focus,
+.pop .login-form .f-info .login-info div textarea.not-empty,
+.pop .login-form .f-info .cont-info div input:focus,
+.pop .login-form .f-info .cont-info div input.not-empty,
+.pop .login-form .f-info .cont-info div textarea:focus,
+.pop .login-form .f-info .cont-info div textarea.not-empty,
+.pop .cont-form .reg-body .reg-info div input:focus,
+.pop .cont-form .reg-body .reg-info div input.not-empty,
+.pop .cont-form .reg-body .reg-info div textarea:focus,
+.pop .cont-form .reg-body .reg-info div textarea.not-empty,
+.pop .cont-form .reg-body .login-info div input:focus,
+.pop .cont-form .reg-body .login-info div input.not-empty,
+.pop .cont-form .reg-body .login-info div textarea:focus,
+.pop .cont-form .reg-body .login-info div textarea.not-empty,
+.pop .cont-form .reg-body .cont-info div input:focus,
+.pop .cont-form .reg-body .cont-info div input.not-empty,
+.pop .cont-form .reg-body .cont-info div textarea:focus,
+.pop .cont-form .reg-body .cont-info div textarea.not-empty,
+.pop .cont-form .login-body .reg-info div input:focus,
+.pop .cont-form .login-body .reg-info div input.not-empty,
+.pop .cont-form .login-body .reg-info div textarea:focus,
+.pop .cont-form .login-body .reg-info div textarea.not-empty,
+.pop .cont-form .login-body .login-info div input:focus,
+.pop .cont-form .login-body .login-info div input.not-empty,
+.pop .cont-form .login-body .login-info div textarea:focus,
+.pop .cont-form .login-body .login-info div textarea.not-empty,
+.pop .cont-form .login-body .cont-info div input:focus,
+.pop .cont-form .login-body .cont-info div input.not-empty,
+.pop .cont-form .login-body .cont-info div textarea:focus,
+.pop .cont-form .login-body .cont-info div textarea.not-empty,
+.pop .cont-form .cont-body .reg-info div input:focus,
+.pop .cont-form .cont-body .reg-info div input.not-empty,
+.pop .cont-form .cont-body .reg-info div textarea:focus,
+.pop .cont-form .cont-body .reg-info div textarea.not-empty,
+.pop .cont-form .cont-body .login-info div input:focus,
+.pop .cont-form .cont-body .login-info div input.not-empty,
+.pop .cont-form .cont-body .login-info div textarea:focus,
+.pop .cont-form .cont-body .login-info div textarea.not-empty,
+.pop .cont-form .cont-body .cont-info div input:focus,
+.pop .cont-form .cont-body .cont-info div input.not-empty,
+.pop .cont-form .cont-body .cont-info div textarea:focus,
+.pop .cont-form .cont-body .cont-info div textarea.not-empty,
+.pop .cont-form .f-info .reg-info div input:focus,
+.pop .cont-form .f-info .reg-info div input.not-empty,
+.pop .cont-form .f-info .reg-info div textarea:focus,
+.pop .cont-form .f-info .reg-info div textarea.not-empty,
+.pop .cont-form .f-info .login-info div input:focus,
+.pop .cont-form .f-info .login-info div input.not-empty,
+.pop .cont-form .f-info .login-info div textarea:focus,
+.pop .cont-form .f-info .login-info div textarea.not-empty,
+.pop .cont-form .f-info .cont-info div input:focus,
+.pop .cont-form .f-info .cont-info div input.not-empty,
+.pop .cont-form .f-info .cont-info div textarea:focus,
+.pop .cont-form .f-info .cont-info div textarea.not-empty,
+.pop .f-win .reg-body .reg-info div input:focus,
+.pop .f-win .reg-body .reg-info div input.not-empty,
+.pop .f-win .reg-body .reg-info div textarea:focus,
+.pop .f-win .reg-body .reg-info div textarea.not-empty,
+.pop .f-win .reg-body .login-info div input:focus,
+.pop .f-win .reg-body .login-info div input.not-empty,
+.pop .f-win .reg-body .login-info div textarea:focus,
+.pop .f-win .reg-body .login-info div textarea.not-empty,
+.pop .f-win .reg-body .cont-info div input:focus,
+.pop .f-win .reg-body .cont-info div input.not-empty,
+.pop .f-win .reg-body .cont-info div textarea:focus,
+.pop .f-win .reg-body .cont-info div textarea.not-empty,
+.pop .f-win .login-body .reg-info div input:focus,
+.pop .f-win .login-body .reg-info div input.not-empty,
+.pop .f-win .login-body .reg-info div textarea:focus,
+.pop .f-win .login-body .reg-info div textarea.not-empty,
+.pop .f-win .login-body .login-info div input:focus,
+.pop .f-win .login-body .login-info div input.not-empty,
+.pop .f-win .login-body .login-info div textarea:focus,
+.pop .f-win .login-body .login-info div textarea.not-empty,
+.pop .f-win .login-body .cont-info div input:focus,
+.pop .f-win .login-body .cont-info div input.not-empty,
+.pop .f-win .login-body .cont-info div textarea:focus,
+.pop .f-win .login-body .cont-info div textarea.not-empty,
+.pop .f-win .cont-body .reg-info div input:focus,
+.pop .f-win .cont-body .reg-info div input.not-empty,
+.pop .f-win .cont-body .reg-info div textarea:focus,
+.pop .f-win .cont-body .reg-info div textarea.not-empty,
+.pop .f-win .cont-body .login-info div input:focus,
+.pop .f-win .cont-body .login-info div input.not-empty,
+.pop .f-win .cont-body .login-info div textarea:focus,
+.pop .f-win .cont-body .login-info div textarea.not-empty,
+.pop .f-win .cont-body .cont-info div input:focus,
+.pop .f-win .cont-body .cont-info div input.not-empty,
+.pop .f-win .cont-body .cont-info div textarea:focus,
+.pop .f-win .cont-body .cont-info div textarea.not-empty,
+.pop .f-win .f-info .reg-info div input:focus,
+.pop .f-win .f-info .reg-info div input.not-empty,
+.pop .f-win .f-info .reg-info div textarea:focus,
+.pop .f-win .f-info .reg-info div textarea.not-empty,
+.pop .f-win .f-info .login-info div input:focus,
+.pop .f-win .f-info .login-info div input.not-empty,
+.pop .f-win .f-info .login-info div textarea:focus,
+.pop .f-win .f-info .login-info div textarea.not-empty,
+.pop .f-win .f-info .cont-info div input:focus,
+.pop .f-win .f-info .cont-info div input.not-empty,
+.pop .f-win .f-info .cont-info div textarea:focus,
+.pop .f-win .f-info .cont-info div textarea.not-empty {
+  margin-top: 20px;
+  padding: 20px;
+}
+.pop .reg-form .reg-body .reg-info div input:focus ~ span, .pop .reg-form .reg-body .reg-info div input ~ span.not-empty,
+.pop .reg-form .reg-body .reg-info div textarea:focus ~ span,
+.pop .reg-form .reg-body .reg-info div textarea ~ span.not-empty,
+.pop .reg-form .reg-body .login-info div input:focus ~ span,
+.pop .reg-form .reg-body .login-info div input ~ span.not-empty,
+.pop .reg-form .reg-body .login-info div textarea:focus ~ span,
+.pop .reg-form .reg-body .login-info div textarea ~ span.not-empty,
+.pop .reg-form .reg-body .cont-info div input:focus ~ span,
+.pop .reg-form .reg-body .cont-info div input ~ span.not-empty,
+.pop .reg-form .reg-body .cont-info div textarea:focus ~ span,
+.pop .reg-form .reg-body .cont-info div textarea ~ span.not-empty,
+.pop .reg-form .login-body .reg-info div input:focus ~ span,
+.pop .reg-form .login-body .reg-info div input ~ span.not-empty,
+.pop .reg-form .login-body .reg-info div textarea:focus ~ span,
+.pop .reg-form .login-body .reg-info div textarea ~ span.not-empty,
+.pop .reg-form .login-body .login-info div input:focus ~ span,
+.pop .reg-form .login-body .login-info div input ~ span.not-empty,
+.pop .reg-form .login-body .login-info div textarea:focus ~ span,
+.pop .reg-form .login-body .login-info div textarea ~ span.not-empty,
+.pop .reg-form .login-body .cont-info div input:focus ~ span,
+.pop .reg-form .login-body .cont-info div input ~ span.not-empty,
+.pop .reg-form .login-body .cont-info div textarea:focus ~ span,
+.pop .reg-form .login-body .cont-info div textarea ~ span.not-empty,
+.pop .reg-form .cont-body .reg-info div input:focus ~ span,
+.pop .reg-form .cont-body .reg-info div input ~ span.not-empty,
+.pop .reg-form .cont-body .reg-info div textarea:focus ~ span,
+.pop .reg-form .cont-body .reg-info div textarea ~ span.not-empty,
+.pop .reg-form .cont-body .login-info div input:focus ~ span,
+.pop .reg-form .cont-body .login-info div input ~ span.not-empty,
+.pop .reg-form .cont-body .login-info div textarea:focus ~ span,
+.pop .reg-form .cont-body .login-info div textarea ~ span.not-empty,
+.pop .reg-form .cont-body .cont-info div input:focus ~ span,
+.pop .reg-form .cont-body .cont-info div input ~ span.not-empty,
+.pop .reg-form .cont-body .cont-info div textarea:focus ~ span,
+.pop .reg-form .cont-body .cont-info div textarea ~ span.not-empty,
+.pop .reg-form .f-info .reg-info div input:focus ~ span,
+.pop .reg-form .f-info .reg-info div input ~ span.not-empty,
+.pop .reg-form .f-info .reg-info div textarea:focus ~ span,
+.pop .reg-form .f-info .reg-info div textarea ~ span.not-empty,
+.pop .reg-form .f-info .login-info div input:focus ~ span,
+.pop .reg-form .f-info .login-info div input ~ span.not-empty,
+.pop .reg-form .f-info .login-info div textarea:focus ~ span,
+.pop .reg-form .f-info .login-info div textarea ~ span.not-empty,
+.pop .reg-form .f-info .cont-info div input:focus ~ span,
+.pop .reg-form .f-info .cont-info div input ~ span.not-empty,
+.pop .reg-form .f-info .cont-info div textarea:focus ~ span,
+.pop .reg-form .f-info .cont-info div textarea ~ span.not-empty,
+.pop .login-form .reg-body .reg-info div input:focus ~ span,
+.pop .login-form .reg-body .reg-info div input ~ span.not-empty,
+.pop .login-form .reg-body .reg-info div textarea:focus ~ span,
+.pop .login-form .reg-body .reg-info div textarea ~ span.not-empty,
+.pop .login-form .reg-body .login-info div input:focus ~ span,
+.pop .login-form .reg-body .login-info div input ~ span.not-empty,
+.pop .login-form .reg-body .login-info div textarea:focus ~ span,
+.pop .login-form .reg-body .login-info div textarea ~ span.not-empty,
+.pop .login-form .reg-body .cont-info div input:focus ~ span,
+.pop .login-form .reg-body .cont-info div input ~ span.not-empty,
+.pop .login-form .reg-body .cont-info div textarea:focus ~ span,
+.pop .login-form .reg-body .cont-info div textarea ~ span.not-empty,
+.pop .login-form .login-body .reg-info div input:focus ~ span,
+.pop .login-form .login-body .reg-info div input ~ span.not-empty,
+.pop .login-form .login-body .reg-info div textarea:focus ~ span,
+.pop .login-form .login-body .reg-info div textarea ~ span.not-empty,
+.pop .login-form .login-body .login-info div input:focus ~ span,
+.pop .login-form .login-body .login-info div input ~ span.not-empty,
+.pop .login-form .login-body .login-info div textarea:focus ~ span,
+.pop .login-form .login-body .login-info div textarea ~ span.not-empty,
+.pop .login-form .login-body .cont-info div input:focus ~ span,
+.pop .login-form .login-body .cont-info div input ~ span.not-empty,
+.pop .login-form .login-body .cont-info div textarea:focus ~ span,
+.pop .login-form .login-body .cont-info div textarea ~ span.not-empty,
+.pop .login-form .cont-body .reg-info div input:focus ~ span,
+.pop .login-form .cont-body .reg-info div input ~ span.not-empty,
+.pop .login-form .cont-body .reg-info div textarea:focus ~ span,
+.pop .login-form .cont-body .reg-info div textarea ~ span.not-empty,
+.pop .login-form .cont-body .login-info div input:focus ~ span,
+.pop .login-form .cont-body .login-info div input ~ span.not-empty,
+.pop .login-form .cont-body .login-info div textarea:focus ~ span,
+.pop .login-form .cont-body .login-info div textarea ~ span.not-empty,
+.pop .login-form .cont-body .cont-info div input:focus ~ span,
+.pop .login-form .cont-body .cont-info div input ~ span.not-empty,
+.pop .login-form .cont-body .cont-info div textarea:focus ~ span,
+.pop .login-form .cont-body .cont-info div textarea ~ span.not-empty,
+.pop .login-form .f-info .reg-info div input:focus ~ span,
+.pop .login-form .f-info .reg-info div input ~ span.not-empty,
+.pop .login-form .f-info .reg-info div textarea:focus ~ span,
+.pop .login-form .f-info .reg-info div textarea ~ span.not-empty,
+.pop .login-form .f-info .login-info div input:focus ~ span,
+.pop .login-form .f-info .login-info div input ~ span.not-empty,
+.pop .login-form .f-info .login-info div textarea:focus ~ span,
+.pop .login-form .f-info .login-info div textarea ~ span.not-empty,
+.pop .login-form .f-info .cont-info div input:focus ~ span,
+.pop .login-form .f-info .cont-info div input ~ span.not-empty,
+.pop .login-form .f-info .cont-info div textarea:focus ~ span,
+.pop .login-form .f-info .cont-info div textarea ~ span.not-empty,
+.pop .cont-form .reg-body .reg-info div input:focus ~ span,
+.pop .cont-form .reg-body .reg-info div input ~ span.not-empty,
+.pop .cont-form .reg-body .reg-info div textarea:focus ~ span,
+.pop .cont-form .reg-body .reg-info div textarea ~ span.not-empty,
+.pop .cont-form .reg-body .login-info div input:focus ~ span,
+.pop .cont-form .reg-body .login-info div input ~ span.not-empty,
+.pop .cont-form .reg-body .login-info div textarea:focus ~ span,
+.pop .cont-form .reg-body .login-info div textarea ~ span.not-empty,
+.pop .cont-form .reg-body .cont-info div input:focus ~ span,
+.pop .cont-form .reg-body .cont-info div input ~ span.not-empty,
+.pop .cont-form .reg-body .cont-info div textarea:focus ~ span,
+.pop .cont-form .reg-body .cont-info div textarea ~ span.not-empty,
+.pop .cont-form .login-body .reg-info div input:focus ~ span,
+.pop .cont-form .login-body .reg-info div input ~ span.not-empty,
+.pop .cont-form .login-body .reg-info div textarea:focus ~ span,
+.pop .cont-form .login-body .reg-info div textarea ~ span.not-empty,
+.pop .cont-form .login-body .login-info div input:focus ~ span,
+.pop .cont-form .login-body .login-info div input ~ span.not-empty,
+.pop .cont-form .login-body .login-info div textarea:focus ~ span,
+.pop .cont-form .login-body .login-info div textarea ~ span.not-empty,
+.pop .cont-form .login-body .cont-info div input:focus ~ span,
+.pop .cont-form .login-body .cont-info div input ~ span.not-empty,
+.pop .cont-form .login-body .cont-info div textarea:focus ~ span,
+.pop .cont-form .login-body .cont-info div textarea ~ span.not-empty,
+.pop .cont-form .cont-body .reg-info div input:focus ~ span,
+.pop .cont-form .cont-body .reg-info div input ~ span.not-empty,
+.pop .cont-form .cont-body .reg-info div textarea:focus ~ span,
+.pop .cont-form .cont-body .reg-info div textarea ~ span.not-empty,
+.pop .cont-form .cont-body .login-info div input:focus ~ span,
+.pop .cont-form .cont-body .login-info div input ~ span.not-empty,
+.pop .cont-form .cont-body .login-info div textarea:focus ~ span,
+.pop .cont-form .cont-body .login-info div textarea ~ span.not-empty,
+.pop .cont-form .cont-body .cont-info div input:focus ~ span,
+.pop .cont-form .cont-body .cont-info div input ~ span.not-empty,
+.pop .cont-form .cont-body .cont-info div textarea:focus ~ span,
+.pop .cont-form .cont-body .cont-info div textarea ~ span.not-empty,
+.pop .cont-form .f-info .reg-info div input:focus ~ span,
+.pop .cont-form .f-info .reg-info div input ~ span.not-empty,
+.pop .cont-form .f-info .reg-info div textarea:focus ~ span,
+.pop .cont-form .f-info .reg-info div textarea ~ span.not-empty,
+.pop .cont-form .f-info .login-info div input:focus ~ span,
+.pop .cont-form .f-info .login-info div input ~ span.not-empty,
+.pop .cont-form .f-info .login-info div textarea:focus ~ span,
+.pop .cont-form .f-info .login-info div textarea ~ span.not-empty,
+.pop .cont-form .f-info .cont-info div input:focus ~ span,
+.pop .cont-form .f-info .cont-info div input ~ span.not-empty,
+.pop .cont-form .f-info .cont-info div textarea:focus ~ span,
+.pop .cont-form .f-info .cont-info div textarea ~ span.not-empty,
+.pop .f-win .reg-body .reg-info div input:focus ~ span,
+.pop .f-win .reg-body .reg-info div input ~ span.not-empty,
+.pop .f-win .reg-body .reg-info div textarea:focus ~ span,
+.pop .f-win .reg-body .reg-info div textarea ~ span.not-empty,
+.pop .f-win .reg-body .login-info div input:focus ~ span,
+.pop .f-win .reg-body .login-info div input ~ span.not-empty,
+.pop .f-win .reg-body .login-info div textarea:focus ~ span,
+.pop .f-win .reg-body .login-info div textarea ~ span.not-empty,
+.pop .f-win .reg-body .cont-info div input:focus ~ span,
+.pop .f-win .reg-body .cont-info div input ~ span.not-empty,
+.pop .f-win .reg-body .cont-info div textarea:focus ~ span,
+.pop .f-win .reg-body .cont-info div textarea ~ span.not-empty,
+.pop .f-win .login-body .reg-info div input:focus ~ span,
+.pop .f-win .login-body .reg-info div input ~ span.not-empty,
+.pop .f-win .login-body .reg-info div textarea:focus ~ span,
+.pop .f-win .login-body .reg-info div textarea ~ span.not-empty,
+.pop .f-win .login-body .login-info div input:focus ~ span,
+.pop .f-win .login-body .login-info div input ~ span.not-empty,
+.pop .f-win .login-body .login-info div textarea:focus ~ span,
+.pop .f-win .login-body .login-info div textarea ~ span.not-empty,
+.pop .f-win .login-body .cont-info div input:focus ~ span,
+.pop .f-win .login-body .cont-info div input ~ span.not-empty,
+.pop .f-win .login-body .cont-info div textarea:focus ~ span,
+.pop .f-win .login-body .cont-info div textarea ~ span.not-empty,
+.pop .f-win .cont-body .reg-info div input:focus ~ span,
+.pop .f-win .cont-body .reg-info div input ~ span.not-empty,
+.pop .f-win .cont-body .reg-info div textarea:focus ~ span,
+.pop .f-win .cont-body .reg-info div textarea ~ span.not-empty,
+.pop .f-win .cont-body .login-info div input:focus ~ span,
+.pop .f-win .cont-body .login-info div input ~ span.not-empty,
+.pop .f-win .cont-body .login-info div textarea:focus ~ span,
+.pop .f-win .cont-body .login-info div textarea ~ span.not-empty,
+.pop .f-win .cont-body .cont-info div input:focus ~ span,
+.pop .f-win .cont-body .cont-info div input ~ span.not-empty,
+.pop .f-win .cont-body .cont-info div textarea:focus ~ span,
+.pop .f-win .cont-body .cont-info div textarea ~ span.not-empty,
+.pop .f-win .f-info .reg-info div input:focus ~ span,
+.pop .f-win .f-info .reg-info div input ~ span.not-empty,
+.pop .f-win .f-info .reg-info div textarea:focus ~ span,
+.pop .f-win .f-info .reg-info div textarea ~ span.not-empty,
+.pop .f-win .f-info .login-info div input:focus ~ span,
+.pop .f-win .f-info .login-info div input ~ span.not-empty,
+.pop .f-win .f-info .login-info div textarea:focus ~ span,
+.pop .f-win .f-info .login-info div textarea ~ span.not-empty,
+.pop .f-win .f-info .cont-info div input:focus ~ span,
+.pop .f-win .f-info .cont-info div input ~ span.not-empty,
+.pop .f-win .f-info .cont-info div textarea:focus ~ span,
+.pop .f-win .f-info .cont-info div textarea ~ span.not-empty {
+  top: 5px;
+  color: #a2845e;
+}
+.pop .reg-form .reg-body .reg-info div input#cont-msg,
+.pop .reg-form .reg-body .reg-info div textarea#cont-msg,
+.pop .reg-form .reg-body .login-info div input#cont-msg,
+.pop .reg-form .reg-body .login-info div textarea#cont-msg,
+.pop .reg-form .reg-body .cont-info div input#cont-msg,
+.pop .reg-form .reg-body .cont-info div textarea#cont-msg,
+.pop .reg-form .login-body .reg-info div input#cont-msg,
+.pop .reg-form .login-body .reg-info div textarea#cont-msg,
+.pop .reg-form .login-body .login-info div input#cont-msg,
+.pop .reg-form .login-body .login-info div textarea#cont-msg,
+.pop .reg-form .login-body .cont-info div input#cont-msg,
+.pop .reg-form .login-body .cont-info div textarea#cont-msg,
+.pop .reg-form .cont-body .reg-info div input#cont-msg,
+.pop .reg-form .cont-body .reg-info div textarea#cont-msg,
+.pop .reg-form .cont-body .login-info div input#cont-msg,
+.pop .reg-form .cont-body .login-info div textarea#cont-msg,
+.pop .reg-form .cont-body .cont-info div input#cont-msg,
+.pop .reg-form .cont-body .cont-info div textarea#cont-msg,
+.pop .reg-form .f-info .reg-info div input#cont-msg,
+.pop .reg-form .f-info .reg-info div textarea#cont-msg,
+.pop .reg-form .f-info .login-info div input#cont-msg,
+.pop .reg-form .f-info .login-info div textarea#cont-msg,
+.pop .reg-form .f-info .cont-info div input#cont-msg,
+.pop .reg-form .f-info .cont-info div textarea#cont-msg,
+.pop .login-form .reg-body .reg-info div input#cont-msg,
+.pop .login-form .reg-body .reg-info div textarea#cont-msg,
+.pop .login-form .reg-body .login-info div input#cont-msg,
+.pop .login-form .reg-body .login-info div textarea#cont-msg,
+.pop .login-form .reg-body .cont-info div input#cont-msg,
+.pop .login-form .reg-body .cont-info div textarea#cont-msg,
+.pop .login-form .login-body .reg-info div input#cont-msg,
+.pop .login-form .login-body .reg-info div textarea#cont-msg,
+.pop .login-form .login-body .login-info div input#cont-msg,
+.pop .login-form .login-body .login-info div textarea#cont-msg,
+.pop .login-form .login-body .cont-info div input#cont-msg,
+.pop .login-form .login-body .cont-info div textarea#cont-msg,
+.pop .login-form .cont-body .reg-info div input#cont-msg,
+.pop .login-form .cont-body .reg-info div textarea#cont-msg,
+.pop .login-form .cont-body .login-info div input#cont-msg,
+.pop .login-form .cont-body .login-info div textarea#cont-msg,
+.pop .login-form .cont-body .cont-info div input#cont-msg,
+.pop .login-form .cont-body .cont-info div textarea#cont-msg,
+.pop .login-form .f-info .reg-info div input#cont-msg,
+.pop .login-form .f-info .reg-info div textarea#cont-msg,
+.pop .login-form .f-info .login-info div input#cont-msg,
+.pop .login-form .f-info .login-info div textarea#cont-msg,
+.pop .login-form .f-info .cont-info div input#cont-msg,
+.pop .login-form .f-info .cont-info div textarea#cont-msg,
+.pop .cont-form .reg-body .reg-info div input#cont-msg,
+.pop .cont-form .reg-body .reg-info div textarea#cont-msg,
+.pop .cont-form .reg-body .login-info div input#cont-msg,
+.pop .cont-form .reg-body .login-info div textarea#cont-msg,
+.pop .cont-form .reg-body .cont-info div input#cont-msg,
+.pop .cont-form .reg-body .cont-info div textarea#cont-msg,
+.pop .cont-form .login-body .reg-info div input#cont-msg,
+.pop .cont-form .login-body .reg-info div textarea#cont-msg,
+.pop .cont-form .login-body .login-info div input#cont-msg,
+.pop .cont-form .login-body .login-info div textarea#cont-msg,
+.pop .cont-form .login-body .cont-info div input#cont-msg,
+.pop .cont-form .login-body .cont-info div textarea#cont-msg,
+.pop .cont-form .cont-body .reg-info div input#cont-msg,
+.pop .cont-form .cont-body .reg-info div textarea#cont-msg,
+.pop .cont-form .cont-body .login-info div input#cont-msg,
+.pop .cont-form .cont-body .login-info div textarea#cont-msg,
+.pop .cont-form .cont-body .cont-info div input#cont-msg,
+.pop .cont-form .cont-body .cont-info div textarea#cont-msg,
+.pop .cont-form .f-info .reg-info div input#cont-msg,
+.pop .cont-form .f-info .reg-info div textarea#cont-msg,
+.pop .cont-form .f-info .login-info div input#cont-msg,
+.pop .cont-form .f-info .login-info div textarea#cont-msg,
+.pop .cont-form .f-info .cont-info div input#cont-msg,
+.pop .cont-form .f-info .cont-info div textarea#cont-msg,
+.pop .f-win .reg-body .reg-info div input#cont-msg,
+.pop .f-win .reg-body .reg-info div textarea#cont-msg,
+.pop .f-win .reg-body .login-info div input#cont-msg,
+.pop .f-win .reg-body .login-info div textarea#cont-msg,
+.pop .f-win .reg-body .cont-info div input#cont-msg,
+.pop .f-win .reg-body .cont-info div textarea#cont-msg,
+.pop .f-win .login-body .reg-info div input#cont-msg,
+.pop .f-win .login-body .reg-info div textarea#cont-msg,
+.pop .f-win .login-body .login-info div input#cont-msg,
+.pop .f-win .login-body .login-info div textarea#cont-msg,
+.pop .f-win .login-body .cont-info div input#cont-msg,
+.pop .f-win .login-body .cont-info div textarea#cont-msg,
+.pop .f-win .cont-body .reg-info div input#cont-msg,
+.pop .f-win .cont-body .reg-info div textarea#cont-msg,
+.pop .f-win .cont-body .login-info div input#cont-msg,
+.pop .f-win .cont-body .login-info div textarea#cont-msg,
+.pop .f-win .cont-body .cont-info div input#cont-msg,
+.pop .f-win .cont-body .cont-info div textarea#cont-msg,
+.pop .f-win .f-info .reg-info div input#cont-msg,
+.pop .f-win .f-info .reg-info div textarea#cont-msg,
+.pop .f-win .f-info .login-info div input#cont-msg,
+.pop .f-win .f-info .login-info div textarea#cont-msg,
+.pop .f-win .f-info .cont-info div input#cont-msg,
+.pop .f-win .f-info .cont-info div textarea#cont-msg {
+  padding-top: 10px;
+}
+.pop .reg-form .reg-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .reg-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .reg-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .reg-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .reg-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .reg-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .login-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .login-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .login-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .login-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .login-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .login-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .cont-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .cont-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .cont-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .cont-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .cont-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .cont-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .f-info .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .f-info .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .f-info .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .f-info .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .reg-form .f-info .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .reg-form .f-info .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .reg-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .reg-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .reg-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .reg-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .reg-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .reg-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .login-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .login-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .login-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .login-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .login-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .login-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .cont-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .cont-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .cont-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .cont-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .cont-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .cont-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .f-info .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .f-info .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .f-info .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .f-info .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .login-form .f-info .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .login-form .f-info .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .reg-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .reg-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .reg-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .reg-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .reg-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .reg-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .login-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .login-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .login-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .login-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .login-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .login-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .cont-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .cont-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .cont-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .cont-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .cont-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .cont-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .f-info .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .f-info .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .f-info .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .f-info .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .cont-form .f-info .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .cont-form .f-info .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .reg-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .reg-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .reg-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .reg-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .reg-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .reg-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .login-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .login-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .login-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .login-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .login-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .login-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .cont-body .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .cont-body .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .cont-body .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .cont-body .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .cont-body .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .cont-body .cont-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .f-info .reg-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .f-info .reg-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .f-info .login-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .f-info .login-info div textarea#cont-msg::-webkit-scrollbar,
+.pop .f-win .f-info .cont-info div input#cont-msg::-webkit-scrollbar,
+.pop .f-win .f-info .cont-info div textarea#cont-msg::-webkit-scrollbar {
+  width: 0;
+}
+.pop .reg-form .reg-body .reg-info div input#cont-msg ~ span,
+.pop .reg-form .reg-body .reg-info div textarea#cont-msg ~ span,
+.pop .reg-form .reg-body .login-info div input#cont-msg ~ span,
+.pop .reg-form .reg-body .login-info div textarea#cont-msg ~ span,
+.pop .reg-form .reg-body .cont-info div input#cont-msg ~ span,
+.pop .reg-form .reg-body .cont-info div textarea#cont-msg ~ span,
+.pop .reg-form .login-body .reg-info div input#cont-msg ~ span,
+.pop .reg-form .login-body .reg-info div textarea#cont-msg ~ span,
+.pop .reg-form .login-body .login-info div input#cont-msg ~ span,
+.pop .reg-form .login-body .login-info div textarea#cont-msg ~ span,
+.pop .reg-form .login-body .cont-info div input#cont-msg ~ span,
+.pop .reg-form .login-body .cont-info div textarea#cont-msg ~ span,
+.pop .reg-form .cont-body .reg-info div input#cont-msg ~ span,
+.pop .reg-form .cont-body .reg-info div textarea#cont-msg ~ span,
+.pop .reg-form .cont-body .login-info div input#cont-msg ~ span,
+.pop .reg-form .cont-body .login-info div textarea#cont-msg ~ span,
+.pop .reg-form .cont-body .cont-info div input#cont-msg ~ span,
+.pop .reg-form .cont-body .cont-info div textarea#cont-msg ~ span,
+.pop .reg-form .f-info .reg-info div input#cont-msg ~ span,
+.pop .reg-form .f-info .reg-info div textarea#cont-msg ~ span,
+.pop .reg-form .f-info .login-info div input#cont-msg ~ span,
+.pop .reg-form .f-info .login-info div textarea#cont-msg ~ span,
+.pop .reg-form .f-info .cont-info div input#cont-msg ~ span,
+.pop .reg-form .f-info .cont-info div textarea#cont-msg ~ span,
+.pop .login-form .reg-body .reg-info div input#cont-msg ~ span,
+.pop .login-form .reg-body .reg-info div textarea#cont-msg ~ span,
+.pop .login-form .reg-body .login-info div input#cont-msg ~ span,
+.pop .login-form .reg-body .login-info div textarea#cont-msg ~ span,
+.pop .login-form .reg-body .cont-info div input#cont-msg ~ span,
+.pop .login-form .reg-body .cont-info div textarea#cont-msg ~ span,
+.pop .login-form .login-body .reg-info div input#cont-msg ~ span,
+.pop .login-form .login-body .reg-info div textarea#cont-msg ~ span,
+.pop .login-form .login-body .login-info div input#cont-msg ~ span,
+.pop .login-form .login-body .login-info div textarea#cont-msg ~ span,
+.pop .login-form .login-body .cont-info div input#cont-msg ~ span,
+.pop .login-form .login-body .cont-info div textarea#cont-msg ~ span,
+.pop .login-form .cont-body .reg-info div input#cont-msg ~ span,
+.pop .login-form .cont-body .reg-info div textarea#cont-msg ~ span,
+.pop .login-form .cont-body .login-info div input#cont-msg ~ span,
+.pop .login-form .cont-body .login-info div textarea#cont-msg ~ span,
+.pop .login-form .cont-body .cont-info div input#cont-msg ~ span,
+.pop .login-form .cont-body .cont-info div textarea#cont-msg ~ span,
+.pop .login-form .f-info .reg-info div input#cont-msg ~ span,
+.pop .login-form .f-info .reg-info div textarea#cont-msg ~ span,
+.pop .login-form .f-info .login-info div input#cont-msg ~ span,
+.pop .login-form .f-info .login-info div textarea#cont-msg ~ span,
+.pop .login-form .f-info .cont-info div input#cont-msg ~ span,
+.pop .login-form .f-info .cont-info div textarea#cont-msg ~ span,
+.pop .cont-form .reg-body .reg-info div input#cont-msg ~ span,
+.pop .cont-form .reg-body .reg-info div textarea#cont-msg ~ span,
+.pop .cont-form .reg-body .login-info div input#cont-msg ~ span,
+.pop .cont-form .reg-body .login-info div textarea#cont-msg ~ span,
+.pop .cont-form .reg-body .cont-info div input#cont-msg ~ span,
+.pop .cont-form .reg-body .cont-info div textarea#cont-msg ~ span,
+.pop .cont-form .login-body .reg-info div input#cont-msg ~ span,
+.pop .cont-form .login-body .reg-info div textarea#cont-msg ~ span,
+.pop .cont-form .login-body .login-info div input#cont-msg ~ span,
+.pop .cont-form .login-body .login-info div textarea#cont-msg ~ span,
+.pop .cont-form .login-body .cont-info div input#cont-msg ~ span,
+.pop .cont-form .login-body .cont-info div textarea#cont-msg ~ span,
+.pop .cont-form .cont-body .reg-info div input#cont-msg ~ span,
+.pop .cont-form .cont-body .reg-info div textarea#cont-msg ~ span,
+.pop .cont-form .cont-body .login-info div input#cont-msg ~ span,
+.pop .cont-form .cont-body .login-info div textarea#cont-msg ~ span,
+.pop .cont-form .cont-body .cont-info div input#cont-msg ~ span,
+.pop .cont-form .cont-body .cont-info div textarea#cont-msg ~ span,
+.pop .cont-form .f-info .reg-info div input#cont-msg ~ span,
+.pop .cont-form .f-info .reg-info div textarea#cont-msg ~ span,
+.pop .cont-form .f-info .login-info div input#cont-msg ~ span,
+.pop .cont-form .f-info .login-info div textarea#cont-msg ~ span,
+.pop .cont-form .f-info .cont-info div input#cont-msg ~ span,
+.pop .cont-form .f-info .cont-info div textarea#cont-msg ~ span,
+.pop .f-win .reg-body .reg-info div input#cont-msg ~ span,
+.pop .f-win .reg-body .reg-info div textarea#cont-msg ~ span,
+.pop .f-win .reg-body .login-info div input#cont-msg ~ span,
+.pop .f-win .reg-body .login-info div textarea#cont-msg ~ span,
+.pop .f-win .reg-body .cont-info div input#cont-msg ~ span,
+.pop .f-win .reg-body .cont-info div textarea#cont-msg ~ span,
+.pop .f-win .login-body .reg-info div input#cont-msg ~ span,
+.pop .f-win .login-body .reg-info div textarea#cont-msg ~ span,
+.pop .f-win .login-body .login-info div input#cont-msg ~ span,
+.pop .f-win .login-body .login-info div textarea#cont-msg ~ span,
+.pop .f-win .login-body .cont-info div input#cont-msg ~ span,
+.pop .f-win .login-body .cont-info div textarea#cont-msg ~ span,
+.pop .f-win .cont-body .reg-info div input#cont-msg ~ span,
+.pop .f-win .cont-body .reg-info div textarea#cont-msg ~ span,
+.pop .f-win .cont-body .login-info div input#cont-msg ~ span,
+.pop .f-win .cont-body .login-info div textarea#cont-msg ~ span,
+.pop .f-win .cont-body .cont-info div input#cont-msg ~ span,
+.pop .f-win .cont-body .cont-info div textarea#cont-msg ~ span,
+.pop .f-win .f-info .reg-info div input#cont-msg ~ span,
+.pop .f-win .f-info .reg-info div textarea#cont-msg ~ span,
+.pop .f-win .f-info .login-info div input#cont-msg ~ span,
+.pop .f-win .f-info .login-info div textarea#cont-msg ~ span,
+.pop .f-win .f-info .cont-info div input#cont-msg ~ span,
+.pop .f-win .f-info .cont-info div textarea#cont-msg ~ span {
+  top: 20px;
+}
+.pop .reg-form .reg-body .reg-info div input#cont-msg:focus,
+.pop .reg-form .reg-body .reg-info div textarea#cont-msg:focus,
+.pop .reg-form .reg-body .login-info div input#cont-msg:focus,
+.pop .reg-form .reg-body .login-info div textarea#cont-msg:focus,
+.pop .reg-form .reg-body .cont-info div input#cont-msg:focus,
+.pop .reg-form .reg-body .cont-info div textarea#cont-msg:focus,
+.pop .reg-form .login-body .reg-info div input#cont-msg:focus,
+.pop .reg-form .login-body .reg-info div textarea#cont-msg:focus,
+.pop .reg-form .login-body .login-info div input#cont-msg:focus,
+.pop .reg-form .login-body .login-info div textarea#cont-msg:focus,
+.pop .reg-form .login-body .cont-info div input#cont-msg:focus,
+.pop .reg-form .login-body .cont-info div textarea#cont-msg:focus,
+.pop .reg-form .cont-body .reg-info div input#cont-msg:focus,
+.pop .reg-form .cont-body .reg-info div textarea#cont-msg:focus,
+.pop .reg-form .cont-body .login-info div input#cont-msg:focus,
+.pop .reg-form .cont-body .login-info div textarea#cont-msg:focus,
+.pop .reg-form .cont-body .cont-info div input#cont-msg:focus,
+.pop .reg-form .cont-body .cont-info div textarea#cont-msg:focus,
+.pop .reg-form .f-info .reg-info div input#cont-msg:focus,
+.pop .reg-form .f-info .reg-info div textarea#cont-msg:focus,
+.pop .reg-form .f-info .login-info div input#cont-msg:focus,
+.pop .reg-form .f-info .login-info div textarea#cont-msg:focus,
+.pop .reg-form .f-info .cont-info div input#cont-msg:focus,
+.pop .reg-form .f-info .cont-info div textarea#cont-msg:focus,
+.pop .login-form .reg-body .reg-info div input#cont-msg:focus,
+.pop .login-form .reg-body .reg-info div textarea#cont-msg:focus,
+.pop .login-form .reg-body .login-info div input#cont-msg:focus,
+.pop .login-form .reg-body .login-info div textarea#cont-msg:focus,
+.pop .login-form .reg-body .cont-info div input#cont-msg:focus,
+.pop .login-form .reg-body .cont-info div textarea#cont-msg:focus,
+.pop .login-form .login-body .reg-info div input#cont-msg:focus,
+.pop .login-form .login-body .reg-info div textarea#cont-msg:focus,
+.pop .login-form .login-body .login-info div input#cont-msg:focus,
+.pop .login-form .login-body .login-info div textarea#cont-msg:focus,
+.pop .login-form .login-body .cont-info div input#cont-msg:focus,
+.pop .login-form .login-body .cont-info div textarea#cont-msg:focus,
+.pop .login-form .cont-body .reg-info div input#cont-msg:focus,
+.pop .login-form .cont-body .reg-info div textarea#cont-msg:focus,
+.pop .login-form .cont-body .login-info div input#cont-msg:focus,
+.pop .login-form .cont-body .login-info div textarea#cont-msg:focus,
+.pop .login-form .cont-body .cont-info div input#cont-msg:focus,
+.pop .login-form .cont-body .cont-info div textarea#cont-msg:focus,
+.pop .login-form .f-info .reg-info div input#cont-msg:focus,
+.pop .login-form .f-info .reg-info div textarea#cont-msg:focus,
+.pop .login-form .f-info .login-info div input#cont-msg:focus,
+.pop .login-form .f-info .login-info div textarea#cont-msg:focus,
+.pop .login-form .f-info .cont-info div input#cont-msg:focus,
+.pop .login-form .f-info .cont-info div textarea#cont-msg:focus,
+.pop .cont-form .reg-body .reg-info div input#cont-msg:focus,
+.pop .cont-form .reg-body .reg-info div textarea#cont-msg:focus,
+.pop .cont-form .reg-body .login-info div input#cont-msg:focus,
+.pop .cont-form .reg-body .login-info div textarea#cont-msg:focus,
+.pop .cont-form .reg-body .cont-info div input#cont-msg:focus,
+.pop .cont-form .reg-body .cont-info div textarea#cont-msg:focus,
+.pop .cont-form .login-body .reg-info div input#cont-msg:focus,
+.pop .cont-form .login-body .reg-info div textarea#cont-msg:focus,
+.pop .cont-form .login-body .login-info div input#cont-msg:focus,
+.pop .cont-form .login-body .login-info div textarea#cont-msg:focus,
+.pop .cont-form .login-body .cont-info div input#cont-msg:focus,
+.pop .cont-form .login-body .cont-info div textarea#cont-msg:focus,
+.pop .cont-form .cont-body .reg-info div input#cont-msg:focus,
+.pop .cont-form .cont-body .reg-info div textarea#cont-msg:focus,
+.pop .cont-form .cont-body .login-info div input#cont-msg:focus,
+.pop .cont-form .cont-body .login-info div textarea#cont-msg:focus,
+.pop .cont-form .cont-body .cont-info div input#cont-msg:focus,
+.pop .cont-form .cont-body .cont-info div textarea#cont-msg:focus,
+.pop .cont-form .f-info .reg-info div input#cont-msg:focus,
+.pop .cont-form .f-info .reg-info div textarea#cont-msg:focus,
+.pop .cont-form .f-info .login-info div input#cont-msg:focus,
+.pop .cont-form .f-info .login-info div textarea#cont-msg:focus,
+.pop .cont-form .f-info .cont-info div input#cont-msg:focus,
+.pop .cont-form .f-info .cont-info div textarea#cont-msg:focus,
+.pop .f-win .reg-body .reg-info div input#cont-msg:focus,
+.pop .f-win .reg-body .reg-info div textarea#cont-msg:focus,
+.pop .f-win .reg-body .login-info div input#cont-msg:focus,
+.pop .f-win .reg-body .login-info div textarea#cont-msg:focus,
+.pop .f-win .reg-body .cont-info div input#cont-msg:focus,
+.pop .f-win .reg-body .cont-info div textarea#cont-msg:focus,
+.pop .f-win .login-body .reg-info div input#cont-msg:focus,
+.pop .f-win .login-body .reg-info div textarea#cont-msg:focus,
+.pop .f-win .login-body .login-info div input#cont-msg:focus,
+.pop .f-win .login-body .login-info div textarea#cont-msg:focus,
+.pop .f-win .login-body .cont-info div input#cont-msg:focus,
+.pop .f-win .login-body .cont-info div textarea#cont-msg:focus,
+.pop .f-win .cont-body .reg-info div input#cont-msg:focus,
+.pop .f-win .cont-body .reg-info div textarea#cont-msg:focus,
+.pop .f-win .cont-body .login-info div input#cont-msg:focus,
+.pop .f-win .cont-body .login-info div textarea#cont-msg:focus,
+.pop .f-win .cont-body .cont-info div input#cont-msg:focus,
+.pop .f-win .cont-body .cont-info div textarea#cont-msg:focus,
+.pop .f-win .f-info .reg-info div input#cont-msg:focus,
+.pop .f-win .f-info .reg-info div textarea#cont-msg:focus,
+.pop .f-win .f-info .login-info div input#cont-msg:focus,
+.pop .f-win .f-info .login-info div textarea#cont-msg:focus,
+.pop .f-win .f-info .cont-info div input#cont-msg:focus,
+.pop .f-win .f-info .cont-info div textarea#cont-msg:focus {
+  height: 90px;
+}
+.pop .reg-form .reg-body .reg-info div input#cont-msg ~ span.not-empty, .pop .reg-form .reg-body .reg-info div input#cont-msg:focus ~ span,
+.pop .reg-form .reg-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .reg-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .reg-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .reg-body .login-info div input#cont-msg:focus ~ span,
+.pop .reg-form .reg-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .reg-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .reg-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .reg-body .cont-info div input#cont-msg:focus ~ span,
+.pop .reg-form .reg-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .reg-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .login-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .login-body .reg-info div input#cont-msg:focus ~ span,
+.pop .reg-form .login-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .login-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .login-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .login-body .login-info div input#cont-msg:focus ~ span,
+.pop .reg-form .login-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .login-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .login-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .login-body .cont-info div input#cont-msg:focus ~ span,
+.pop .reg-form .login-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .login-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .cont-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .cont-body .reg-info div input#cont-msg:focus ~ span,
+.pop .reg-form .cont-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .cont-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .cont-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .cont-body .login-info div input#cont-msg:focus ~ span,
+.pop .reg-form .cont-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .cont-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .cont-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .cont-body .cont-info div input#cont-msg:focus ~ span,
+.pop .reg-form .cont-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .cont-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .f-info .reg-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .f-info .reg-info div input#cont-msg:focus ~ span,
+.pop .reg-form .f-info .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .f-info .reg-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .f-info .login-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .f-info .login-info div input#cont-msg:focus ~ span,
+.pop .reg-form .f-info .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .f-info .login-info div textarea#cont-msg:focus ~ span,
+.pop .reg-form .f-info .cont-info div input#cont-msg ~ span.not-empty,
+.pop .reg-form .f-info .cont-info div input#cont-msg:focus ~ span,
+.pop .reg-form .f-info .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .reg-form .f-info .cont-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .reg-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .reg-body .reg-info div input#cont-msg:focus ~ span,
+.pop .login-form .reg-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .reg-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .reg-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .reg-body .login-info div input#cont-msg:focus ~ span,
+.pop .login-form .reg-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .reg-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .reg-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .reg-body .cont-info div input#cont-msg:focus ~ span,
+.pop .login-form .reg-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .reg-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .login-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .login-body .reg-info div input#cont-msg:focus ~ span,
+.pop .login-form .login-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .login-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .login-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .login-body .login-info div input#cont-msg:focus ~ span,
+.pop .login-form .login-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .login-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .login-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .login-body .cont-info div input#cont-msg:focus ~ span,
+.pop .login-form .login-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .login-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .cont-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .cont-body .reg-info div input#cont-msg:focus ~ span,
+.pop .login-form .cont-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .cont-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .cont-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .cont-body .login-info div input#cont-msg:focus ~ span,
+.pop .login-form .cont-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .cont-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .cont-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .cont-body .cont-info div input#cont-msg:focus ~ span,
+.pop .login-form .cont-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .cont-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .f-info .reg-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .f-info .reg-info div input#cont-msg:focus ~ span,
+.pop .login-form .f-info .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .f-info .reg-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .f-info .login-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .f-info .login-info div input#cont-msg:focus ~ span,
+.pop .login-form .f-info .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .f-info .login-info div textarea#cont-msg:focus ~ span,
+.pop .login-form .f-info .cont-info div input#cont-msg ~ span.not-empty,
+.pop .login-form .f-info .cont-info div input#cont-msg:focus ~ span,
+.pop .login-form .f-info .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .login-form .f-info .cont-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .reg-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .reg-body .reg-info div input#cont-msg:focus ~ span,
+.pop .cont-form .reg-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .reg-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .reg-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .reg-body .login-info div input#cont-msg:focus ~ span,
+.pop .cont-form .reg-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .reg-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .reg-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .reg-body .cont-info div input#cont-msg:focus ~ span,
+.pop .cont-form .reg-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .reg-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .login-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .login-body .reg-info div input#cont-msg:focus ~ span,
+.pop .cont-form .login-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .login-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .login-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .login-body .login-info div input#cont-msg:focus ~ span,
+.pop .cont-form .login-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .login-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .login-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .login-body .cont-info div input#cont-msg:focus ~ span,
+.pop .cont-form .login-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .login-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .cont-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .cont-body .reg-info div input#cont-msg:focus ~ span,
+.pop .cont-form .cont-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .cont-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .cont-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .cont-body .login-info div input#cont-msg:focus ~ span,
+.pop .cont-form .cont-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .cont-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .cont-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .cont-body .cont-info div input#cont-msg:focus ~ span,
+.pop .cont-form .cont-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .cont-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .f-info .reg-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .f-info .reg-info div input#cont-msg:focus ~ span,
+.pop .cont-form .f-info .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .f-info .reg-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .f-info .login-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .f-info .login-info div input#cont-msg:focus ~ span,
+.pop .cont-form .f-info .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .f-info .login-info div textarea#cont-msg:focus ~ span,
+.pop .cont-form .f-info .cont-info div input#cont-msg ~ span.not-empty,
+.pop .cont-form .f-info .cont-info div input#cont-msg:focus ~ span,
+.pop .cont-form .f-info .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .cont-form .f-info .cont-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .reg-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .reg-body .reg-info div input#cont-msg:focus ~ span,
+.pop .f-win .reg-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .reg-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .reg-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .reg-body .login-info div input#cont-msg:focus ~ span,
+.pop .f-win .reg-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .reg-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .reg-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .reg-body .cont-info div input#cont-msg:focus ~ span,
+.pop .f-win .reg-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .reg-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .login-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .login-body .reg-info div input#cont-msg:focus ~ span,
+.pop .f-win .login-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .login-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .login-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .login-body .login-info div input#cont-msg:focus ~ span,
+.pop .f-win .login-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .login-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .login-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .login-body .cont-info div input#cont-msg:focus ~ span,
+.pop .f-win .login-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .login-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .cont-body .reg-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .cont-body .reg-info div input#cont-msg:focus ~ span,
+.pop .f-win .cont-body .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .cont-body .reg-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .cont-body .login-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .cont-body .login-info div input#cont-msg:focus ~ span,
+.pop .f-win .cont-body .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .cont-body .login-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .cont-body .cont-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .cont-body .cont-info div input#cont-msg:focus ~ span,
+.pop .f-win .cont-body .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .cont-body .cont-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .f-info .reg-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .f-info .reg-info div input#cont-msg:focus ~ span,
+.pop .f-win .f-info .reg-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .f-info .reg-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .f-info .login-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .f-info .login-info div input#cont-msg:focus ~ span,
+.pop .f-win .f-info .login-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .f-info .login-info div textarea#cont-msg:focus ~ span,
+.pop .f-win .f-info .cont-info div input#cont-msg ~ span.not-empty,
+.pop .f-win .f-info .cont-info div input#cont-msg:focus ~ span,
+.pop .f-win .f-info .cont-info div textarea#cont-msg ~ span.not-empty,
+.pop .f-win .f-info .cont-info div textarea#cont-msg:focus ~ span {
+  top: 2px;
+}
+.pop .reg-form .reg-body .reg-info div.reg-bd-sex, .pop .reg-form .reg-body .reg-info div.reg-name,
+.pop .reg-form .reg-body .login-info div.reg-bd-sex,
+.pop .reg-form .reg-body .login-info div.reg-name,
+.pop .reg-form .reg-body .cont-info div.reg-bd-sex,
+.pop .reg-form .reg-body .cont-info div.reg-name,
+.pop .reg-form .login-body .reg-info div.reg-bd-sex,
+.pop .reg-form .login-body .reg-info div.reg-name,
+.pop .reg-form .login-body .login-info div.reg-bd-sex,
+.pop .reg-form .login-body .login-info div.reg-name,
+.pop .reg-form .login-body .cont-info div.reg-bd-sex,
+.pop .reg-form .login-body .cont-info div.reg-name,
+.pop .reg-form .cont-body .reg-info div.reg-bd-sex,
+.pop .reg-form .cont-body .reg-info div.reg-name,
+.pop .reg-form .cont-body .login-info div.reg-bd-sex,
+.pop .reg-form .cont-body .login-info div.reg-name,
+.pop .reg-form .cont-body .cont-info div.reg-bd-sex,
+.pop .reg-form .cont-body .cont-info div.reg-name,
+.pop .reg-form .f-info .reg-info div.reg-bd-sex,
+.pop .reg-form .f-info .reg-info div.reg-name,
+.pop .reg-form .f-info .login-info div.reg-bd-sex,
+.pop .reg-form .f-info .login-info div.reg-name,
+.pop .reg-form .f-info .cont-info div.reg-bd-sex,
+.pop .reg-form .f-info .cont-info div.reg-name,
+.pop .login-form .reg-body .reg-info div.reg-bd-sex,
+.pop .login-form .reg-body .reg-info div.reg-name,
+.pop .login-form .reg-body .login-info div.reg-bd-sex,
+.pop .login-form .reg-body .login-info div.reg-name,
+.pop .login-form .reg-body .cont-info div.reg-bd-sex,
+.pop .login-form .reg-body .cont-info div.reg-name,
+.pop .login-form .login-body .reg-info div.reg-bd-sex,
+.pop .login-form .login-body .reg-info div.reg-name,
+.pop .login-form .login-body .login-info div.reg-bd-sex,
+.pop .login-form .login-body .login-info div.reg-name,
+.pop .login-form .login-body .cont-info div.reg-bd-sex,
+.pop .login-form .login-body .cont-info div.reg-name,
+.pop .login-form .cont-body .reg-info div.reg-bd-sex,
+.pop .login-form .cont-body .reg-info div.reg-name,
+.pop .login-form .cont-body .login-info div.reg-bd-sex,
+.pop .login-form .cont-body .login-info div.reg-name,
+.pop .login-form .cont-body .cont-info div.reg-bd-sex,
+.pop .login-form .cont-body .cont-info div.reg-name,
+.pop .login-form .f-info .reg-info div.reg-bd-sex,
+.pop .login-form .f-info .reg-info div.reg-name,
+.pop .login-form .f-info .login-info div.reg-bd-sex,
+.pop .login-form .f-info .login-info div.reg-name,
+.pop .login-form .f-info .cont-info div.reg-bd-sex,
+.pop .login-form .f-info .cont-info div.reg-name,
+.pop .cont-form .reg-body .reg-info div.reg-bd-sex,
+.pop .cont-form .reg-body .reg-info div.reg-name,
+.pop .cont-form .reg-body .login-info div.reg-bd-sex,
+.pop .cont-form .reg-body .login-info div.reg-name,
+.pop .cont-form .reg-body .cont-info div.reg-bd-sex,
+.pop .cont-form .reg-body .cont-info div.reg-name,
+.pop .cont-form .login-body .reg-info div.reg-bd-sex,
+.pop .cont-form .login-body .reg-info div.reg-name,
+.pop .cont-form .login-body .login-info div.reg-bd-sex,
+.pop .cont-form .login-body .login-info div.reg-name,
+.pop .cont-form .login-body .cont-info div.reg-bd-sex,
+.pop .cont-form .login-body .cont-info div.reg-name,
+.pop .cont-form .cont-body .reg-info div.reg-bd-sex,
+.pop .cont-form .cont-body .reg-info div.reg-name,
+.pop .cont-form .cont-body .login-info div.reg-bd-sex,
+.pop .cont-form .cont-body .login-info div.reg-name,
+.pop .cont-form .cont-body .cont-info div.reg-bd-sex,
+.pop .cont-form .cont-body .cont-info div.reg-name,
+.pop .cont-form .f-info .reg-info div.reg-bd-sex,
+.pop .cont-form .f-info .reg-info div.reg-name,
+.pop .cont-form .f-info .login-info div.reg-bd-sex,
+.pop .cont-form .f-info .login-info div.reg-name,
+.pop .cont-form .f-info .cont-info div.reg-bd-sex,
+.pop .cont-form .f-info .cont-info div.reg-name,
+.pop .f-win .reg-body .reg-info div.reg-bd-sex,
+.pop .f-win .reg-body .reg-info div.reg-name,
+.pop .f-win .reg-body .login-info div.reg-bd-sex,
+.pop .f-win .reg-body .login-info div.reg-name,
+.pop .f-win .reg-body .cont-info div.reg-bd-sex,
+.pop .f-win .reg-body .cont-info div.reg-name,
+.pop .f-win .login-body .reg-info div.reg-bd-sex,
+.pop .f-win .login-body .reg-info div.reg-name,
+.pop .f-win .login-body .login-info div.reg-bd-sex,
+.pop .f-win .login-body .login-info div.reg-name,
+.pop .f-win .login-body .cont-info div.reg-bd-sex,
+.pop .f-win .login-body .cont-info div.reg-name,
+.pop .f-win .cont-body .reg-info div.reg-bd-sex,
+.pop .f-win .cont-body .reg-info div.reg-name,
+.pop .f-win .cont-body .login-info div.reg-bd-sex,
+.pop .f-win .cont-body .login-info div.reg-name,
+.pop .f-win .cont-body .cont-info div.reg-bd-sex,
+.pop .f-win .cont-body .cont-info div.reg-name,
+.pop .f-win .f-info .reg-info div.reg-bd-sex,
+.pop .f-win .f-info .reg-info div.reg-name,
+.pop .f-win .f-info .login-info div.reg-bd-sex,
+.pop .f-win .f-info .login-info div.reg-name,
+.pop .f-win .f-info .cont-info div.reg-bd-sex,
+.pop .f-win .f-info .cont-info div.reg-name {
+  display: flex;
+  gap: 10px;
+}
+.pop .reg-form .reg-body .reg-info p,
+.pop .reg-form .reg-body .login-info p,
+.pop .reg-form .reg-body .cont-info p,
+.pop .reg-form .login-body .reg-info p,
+.pop .reg-form .login-body .login-info p,
+.pop .reg-form .login-body .cont-info p,
+.pop .reg-form .cont-body .reg-info p,
+.pop .reg-form .cont-body .login-info p,
+.pop .reg-form .cont-body .cont-info p,
+.pop .reg-form .f-info .reg-info p,
+.pop .reg-form .f-info .login-info p,
+.pop .reg-form .f-info .cont-info p,
+.pop .login-form .reg-body .reg-info p,
+.pop .login-form .reg-body .login-info p,
+.pop .login-form .reg-body .cont-info p,
+.pop .login-form .login-body .reg-info p,
+.pop .login-form .login-body .login-info p,
+.pop .login-form .login-body .cont-info p,
+.pop .login-form .cont-body .reg-info p,
+.pop .login-form .cont-body .login-info p,
+.pop .login-form .cont-body .cont-info p,
+.pop .login-form .f-info .reg-info p,
+.pop .login-form .f-info .login-info p,
+.pop .login-form .f-info .cont-info p,
+.pop .cont-form .reg-body .reg-info p,
+.pop .cont-form .reg-body .login-info p,
+.pop .cont-form .reg-body .cont-info p,
+.pop .cont-form .login-body .reg-info p,
+.pop .cont-form .login-body .login-info p,
+.pop .cont-form .login-body .cont-info p,
+.pop .cont-form .cont-body .reg-info p,
+.pop .cont-form .cont-body .login-info p,
+.pop .cont-form .cont-body .cont-info p,
+.pop .cont-form .f-info .reg-info p,
+.pop .cont-form .f-info .login-info p,
+.pop .cont-form .f-info .cont-info p,
+.pop .f-win .reg-body .reg-info p,
+.pop .f-win .reg-body .login-info p,
+.pop .f-win .reg-body .cont-info p,
+.pop .f-win .login-body .reg-info p,
+.pop .f-win .login-body .login-info p,
+.pop .f-win .login-body .cont-info p,
+.pop .f-win .cont-body .reg-info p,
+.pop .f-win .cont-body .login-info p,
+.pop .f-win .cont-body .cont-info p,
+.pop .f-win .f-info .reg-info p,
+.pop .f-win .f-info .login-info p,
+.pop .f-win .f-info .cont-info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.pop .reg-form .reg-body .reg-info p button,
+.pop .reg-form .reg-body .login-info p button,
+.pop .reg-form .reg-body .cont-info p button,
+.pop .reg-form .login-body .reg-info p button,
+.pop .reg-form .login-body .login-info p button,
+.pop .reg-form .login-body .cont-info p button,
+.pop .reg-form .cont-body .reg-info p button,
+.pop .reg-form .cont-body .login-info p button,
+.pop .reg-form .cont-body .cont-info p button,
+.pop .reg-form .f-info .reg-info p button,
+.pop .reg-form .f-info .login-info p button,
+.pop .reg-form .f-info .cont-info p button,
+.pop .login-form .reg-body .reg-info p button,
+.pop .login-form .reg-body .login-info p button,
+.pop .login-form .reg-body .cont-info p button,
+.pop .login-form .login-body .reg-info p button,
+.pop .login-form .login-body .login-info p button,
+.pop .login-form .login-body .cont-info p button,
+.pop .login-form .cont-body .reg-info p button,
+.pop .login-form .cont-body .login-info p button,
+.pop .login-form .cont-body .cont-info p button,
+.pop .login-form .f-info .reg-info p button,
+.pop .login-form .f-info .login-info p button,
+.pop .login-form .f-info .cont-info p button,
+.pop .cont-form .reg-body .reg-info p button,
+.pop .cont-form .reg-body .login-info p button,
+.pop .cont-form .reg-body .cont-info p button,
+.pop .cont-form .login-body .reg-info p button,
+.pop .cont-form .login-body .login-info p button,
+.pop .cont-form .login-body .cont-info p button,
+.pop .cont-form .cont-body .reg-info p button,
+.pop .cont-form .cont-body .login-info p button,
+.pop .cont-form .cont-body .cont-info p button,
+.pop .cont-form .f-info .reg-info p button,
+.pop .cont-form .f-info .login-info p button,
+.pop .cont-form .f-info .cont-info p button,
+.pop .f-win .reg-body .reg-info p button,
+.pop .f-win .reg-body .login-info p button,
+.pop .f-win .reg-body .cont-info p button,
+.pop .f-win .login-body .reg-info p button,
+.pop .f-win .login-body .login-info p button,
+.pop .f-win .login-body .cont-info p button,
+.pop .f-win .cont-body .reg-info p button,
+.pop .f-win .cont-body .login-info p button,
+.pop .f-win .cont-body .cont-info p button,
+.pop .f-win .f-info .reg-info p button,
+.pop .f-win .f-info .login-info p button,
+.pop .f-win .f-info .cont-info p button {
+  border: none;
+  background: #e0e0e0;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out all;
+  cursor: pointer;
+}
+.pop .reg-form .reg-body .reg-info p button:hover,
+.pop .reg-form .reg-body .login-info p button:hover,
+.pop .reg-form .reg-body .cont-info p button:hover,
+.pop .reg-form .login-body .reg-info p button:hover,
+.pop .reg-form .login-body .login-info p button:hover,
+.pop .reg-form .login-body .cont-info p button:hover,
+.pop .reg-form .cont-body .reg-info p button:hover,
+.pop .reg-form .cont-body .login-info p button:hover,
+.pop .reg-form .cont-body .cont-info p button:hover,
+.pop .reg-form .f-info .reg-info p button:hover,
+.pop .reg-form .f-info .login-info p button:hover,
+.pop .reg-form .f-info .cont-info p button:hover,
+.pop .login-form .reg-body .reg-info p button:hover,
+.pop .login-form .reg-body .login-info p button:hover,
+.pop .login-form .reg-body .cont-info p button:hover,
+.pop .login-form .login-body .reg-info p button:hover,
+.pop .login-form .login-body .login-info p button:hover,
+.pop .login-form .login-body .cont-info p button:hover,
+.pop .login-form .cont-body .reg-info p button:hover,
+.pop .login-form .cont-body .login-info p button:hover,
+.pop .login-form .cont-body .cont-info p button:hover,
+.pop .login-form .f-info .reg-info p button:hover,
+.pop .login-form .f-info .login-info p button:hover,
+.pop .login-form .f-info .cont-info p button:hover,
+.pop .cont-form .reg-body .reg-info p button:hover,
+.pop .cont-form .reg-body .login-info p button:hover,
+.pop .cont-form .reg-body .cont-info p button:hover,
+.pop .cont-form .login-body .reg-info p button:hover,
+.pop .cont-form .login-body .login-info p button:hover,
+.pop .cont-form .login-body .cont-info p button:hover,
+.pop .cont-form .cont-body .reg-info p button:hover,
+.pop .cont-form .cont-body .login-info p button:hover,
+.pop .cont-form .cont-body .cont-info p button:hover,
+.pop .cont-form .f-info .reg-info p button:hover,
+.pop .cont-form .f-info .login-info p button:hover,
+.pop .cont-form .f-info .cont-info p button:hover,
+.pop .f-win .reg-body .reg-info p button:hover,
+.pop .f-win .reg-body .login-info p button:hover,
+.pop .f-win .reg-body .cont-info p button:hover,
+.pop .f-win .login-body .reg-info p button:hover,
+.pop .f-win .login-body .login-info p button:hover,
+.pop .f-win .login-body .cont-info p button:hover,
+.pop .f-win .cont-body .reg-info p button:hover,
+.pop .f-win .cont-body .login-info p button:hover,
+.pop .f-win .cont-body .cont-info p button:hover,
+.pop .f-win .f-info .reg-info p button:hover,
+.pop .f-win .f-info .login-info p button:hover,
+.pop .f-win .f-info .cont-info p button:hover {
+  color: #a2845e;
+}
+.pop .reg-form .reg-body .reg-info p.frg-psrd,
+.pop .reg-form .reg-body .login-info p.frg-psrd,
+.pop .reg-form .reg-body .cont-info p.frg-psrd,
+.pop .reg-form .login-body .reg-info p.frg-psrd,
+.pop .reg-form .login-body .login-info p.frg-psrd,
+.pop .reg-form .login-body .cont-info p.frg-psrd,
+.pop .reg-form .cont-body .reg-info p.frg-psrd,
+.pop .reg-form .cont-body .login-info p.frg-psrd,
+.pop .reg-form .cont-body .cont-info p.frg-psrd,
+.pop .reg-form .f-info .reg-info p.frg-psrd,
+.pop .reg-form .f-info .login-info p.frg-psrd,
+.pop .reg-form .f-info .cont-info p.frg-psrd,
+.pop .login-form .reg-body .reg-info p.frg-psrd,
+.pop .login-form .reg-body .login-info p.frg-psrd,
+.pop .login-form .reg-body .cont-info p.frg-psrd,
+.pop .login-form .login-body .reg-info p.frg-psrd,
+.pop .login-form .login-body .login-info p.frg-psrd,
+.pop .login-form .login-body .cont-info p.frg-psrd,
+.pop .login-form .cont-body .reg-info p.frg-psrd,
+.pop .login-form .cont-body .login-info p.frg-psrd,
+.pop .login-form .cont-body .cont-info p.frg-psrd,
+.pop .login-form .f-info .reg-info p.frg-psrd,
+.pop .login-form .f-info .login-info p.frg-psrd,
+.pop .login-form .f-info .cont-info p.frg-psrd,
+.pop .cont-form .reg-body .reg-info p.frg-psrd,
+.pop .cont-form .reg-body .login-info p.frg-psrd,
+.pop .cont-form .reg-body .cont-info p.frg-psrd,
+.pop .cont-form .login-body .reg-info p.frg-psrd,
+.pop .cont-form .login-body .login-info p.frg-psrd,
+.pop .cont-form .login-body .cont-info p.frg-psrd,
+.pop .cont-form .cont-body .reg-info p.frg-psrd,
+.pop .cont-form .cont-body .login-info p.frg-psrd,
+.pop .cont-form .cont-body .cont-info p.frg-psrd,
+.pop .cont-form .f-info .reg-info p.frg-psrd,
+.pop .cont-form .f-info .login-info p.frg-psrd,
+.pop .cont-form .f-info .cont-info p.frg-psrd,
+.pop .f-win .reg-body .reg-info p.frg-psrd,
+.pop .f-win .reg-body .login-info p.frg-psrd,
+.pop .f-win .reg-body .cont-info p.frg-psrd,
+.pop .f-win .login-body .reg-info p.frg-psrd,
+.pop .f-win .login-body .login-info p.frg-psrd,
+.pop .f-win .login-body .cont-info p.frg-psrd,
+.pop .f-win .cont-body .reg-info p.frg-psrd,
+.pop .f-win .cont-body .login-info p.frg-psrd,
+.pop .f-win .cont-body .cont-info p.frg-psrd,
+.pop .f-win .f-info .reg-info p.frg-psrd,
+.pop .f-win .f-info .login-info p.frg-psrd,
+.pop .f-win .f-info .cont-info p.frg-psrd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.pop .reg-form .reg-body .reg-info p.frg-psrd button,
+.pop .reg-form .reg-body .login-info p.frg-psrd button,
+.pop .reg-form .reg-body .cont-info p.frg-psrd button,
+.pop .reg-form .login-body .reg-info p.frg-psrd button,
+.pop .reg-form .login-body .login-info p.frg-psrd button,
+.pop .reg-form .login-body .cont-info p.frg-psrd button,
+.pop .reg-form .cont-body .reg-info p.frg-psrd button,
+.pop .reg-form .cont-body .login-info p.frg-psrd button,
+.pop .reg-form .cont-body .cont-info p.frg-psrd button,
+.pop .reg-form .f-info .reg-info p.frg-psrd button,
+.pop .reg-form .f-info .login-info p.frg-psrd button,
+.pop .reg-form .f-info .cont-info p.frg-psrd button,
+.pop .login-form .reg-body .reg-info p.frg-psrd button,
+.pop .login-form .reg-body .login-info p.frg-psrd button,
+.pop .login-form .reg-body .cont-info p.frg-psrd button,
+.pop .login-form .login-body .reg-info p.frg-psrd button,
+.pop .login-form .login-body .login-info p.frg-psrd button,
+.pop .login-form .login-body .cont-info p.frg-psrd button,
+.pop .login-form .cont-body .reg-info p.frg-psrd button,
+.pop .login-form .cont-body .login-info p.frg-psrd button,
+.pop .login-form .cont-body .cont-info p.frg-psrd button,
+.pop .login-form .f-info .reg-info p.frg-psrd button,
+.pop .login-form .f-info .login-info p.frg-psrd button,
+.pop .login-form .f-info .cont-info p.frg-psrd button,
+.pop .cont-form .reg-body .reg-info p.frg-psrd button,
+.pop .cont-form .reg-body .login-info p.frg-psrd button,
+.pop .cont-form .reg-body .cont-info p.frg-psrd button,
+.pop .cont-form .login-body .reg-info p.frg-psrd button,
+.pop .cont-form .login-body .login-info p.frg-psrd button,
+.pop .cont-form .login-body .cont-info p.frg-psrd button,
+.pop .cont-form .cont-body .reg-info p.frg-psrd button,
+.pop .cont-form .cont-body .login-info p.frg-psrd button,
+.pop .cont-form .cont-body .cont-info p.frg-psrd button,
+.pop .cont-form .f-info .reg-info p.frg-psrd button,
+.pop .cont-form .f-info .login-info p.frg-psrd button,
+.pop .cont-form .f-info .cont-info p.frg-psrd button,
+.pop .f-win .reg-body .reg-info p.frg-psrd button,
+.pop .f-win .reg-body .login-info p.frg-psrd button,
+.pop .f-win .reg-body .cont-info p.frg-psrd button,
+.pop .f-win .login-body .reg-info p.frg-psrd button,
+.pop .f-win .login-body .login-info p.frg-psrd button,
+.pop .f-win .login-body .cont-info p.frg-psrd button,
+.pop .f-win .cont-body .reg-info p.frg-psrd button,
+.pop .f-win .cont-body .login-info p.frg-psrd button,
+.pop .f-win .cont-body .cont-info p.frg-psrd button,
+.pop .f-win .f-info .reg-info p.frg-psrd button,
+.pop .f-win .f-info .login-info p.frg-psrd button,
+.pop .f-win .f-info .cont-info p.frg-psrd button {
+  padding: 0;
+  background: none;
+}
+.pop .reg-form .reg-body .reg-info p.reg-bd, .pop .reg-form .reg-body .reg-info p.reg-gndr, .pop .reg-form .reg-body .reg-info p.reg-lst-name, .pop .reg-form .reg-body .reg-info p.reg-st-name,
+.pop .reg-form .reg-body .login-info p.reg-bd,
+.pop .reg-form .reg-body .login-info p.reg-gndr,
+.pop .reg-form .reg-body .login-info p.reg-lst-name,
+.pop .reg-form .reg-body .login-info p.reg-st-name,
+.pop .reg-form .reg-body .cont-info p.reg-bd,
+.pop .reg-form .reg-body .cont-info p.reg-gndr,
+.pop .reg-form .reg-body .cont-info p.reg-lst-name,
+.pop .reg-form .reg-body .cont-info p.reg-st-name,
+.pop .reg-form .login-body .reg-info p.reg-bd,
+.pop .reg-form .login-body .reg-info p.reg-gndr,
+.pop .reg-form .login-body .reg-info p.reg-lst-name,
+.pop .reg-form .login-body .reg-info p.reg-st-name,
+.pop .reg-form .login-body .login-info p.reg-bd,
+.pop .reg-form .login-body .login-info p.reg-gndr,
+.pop .reg-form .login-body .login-info p.reg-lst-name,
+.pop .reg-form .login-body .login-info p.reg-st-name,
+.pop .reg-form .login-body .cont-info p.reg-bd,
+.pop .reg-form .login-body .cont-info p.reg-gndr,
+.pop .reg-form .login-body .cont-info p.reg-lst-name,
+.pop .reg-form .login-body .cont-info p.reg-st-name,
+.pop .reg-form .cont-body .reg-info p.reg-bd,
+.pop .reg-form .cont-body .reg-info p.reg-gndr,
+.pop .reg-form .cont-body .reg-info p.reg-lst-name,
+.pop .reg-form .cont-body .reg-info p.reg-st-name,
+.pop .reg-form .cont-body .login-info p.reg-bd,
+.pop .reg-form .cont-body .login-info p.reg-gndr,
+.pop .reg-form .cont-body .login-info p.reg-lst-name,
+.pop .reg-form .cont-body .login-info p.reg-st-name,
+.pop .reg-form .cont-body .cont-info p.reg-bd,
+.pop .reg-form .cont-body .cont-info p.reg-gndr,
+.pop .reg-form .cont-body .cont-info p.reg-lst-name,
+.pop .reg-form .cont-body .cont-info p.reg-st-name,
+.pop .reg-form .f-info .reg-info p.reg-bd,
+.pop .reg-form .f-info .reg-info p.reg-gndr,
+.pop .reg-form .f-info .reg-info p.reg-lst-name,
+.pop .reg-form .f-info .reg-info p.reg-st-name,
+.pop .reg-form .f-info .login-info p.reg-bd,
+.pop .reg-form .f-info .login-info p.reg-gndr,
+.pop .reg-form .f-info .login-info p.reg-lst-name,
+.pop .reg-form .f-info .login-info p.reg-st-name,
+.pop .reg-form .f-info .cont-info p.reg-bd,
+.pop .reg-form .f-info .cont-info p.reg-gndr,
+.pop .reg-form .f-info .cont-info p.reg-lst-name,
+.pop .reg-form .f-info .cont-info p.reg-st-name,
+.pop .login-form .reg-body .reg-info p.reg-bd,
+.pop .login-form .reg-body .reg-info p.reg-gndr,
+.pop .login-form .reg-body .reg-info p.reg-lst-name,
+.pop .login-form .reg-body .reg-info p.reg-st-name,
+.pop .login-form .reg-body .login-info p.reg-bd,
+.pop .login-form .reg-body .login-info p.reg-gndr,
+.pop .login-form .reg-body .login-info p.reg-lst-name,
+.pop .login-form .reg-body .login-info p.reg-st-name,
+.pop .login-form .reg-body .cont-info p.reg-bd,
+.pop .login-form .reg-body .cont-info p.reg-gndr,
+.pop .login-form .reg-body .cont-info p.reg-lst-name,
+.pop .login-form .reg-body .cont-info p.reg-st-name,
+.pop .login-form .login-body .reg-info p.reg-bd,
+.pop .login-form .login-body .reg-info p.reg-gndr,
+.pop .login-form .login-body .reg-info p.reg-lst-name,
+.pop .login-form .login-body .reg-info p.reg-st-name,
+.pop .login-form .login-body .login-info p.reg-bd,
+.pop .login-form .login-body .login-info p.reg-gndr,
+.pop .login-form .login-body .login-info p.reg-lst-name,
+.pop .login-form .login-body .login-info p.reg-st-name,
+.pop .login-form .login-body .cont-info p.reg-bd,
+.pop .login-form .login-body .cont-info p.reg-gndr,
+.pop .login-form .login-body .cont-info p.reg-lst-name,
+.pop .login-form .login-body .cont-info p.reg-st-name,
+.pop .login-form .cont-body .reg-info p.reg-bd,
+.pop .login-form .cont-body .reg-info p.reg-gndr,
+.pop .login-form .cont-body .reg-info p.reg-lst-name,
+.pop .login-form .cont-body .reg-info p.reg-st-name,
+.pop .login-form .cont-body .login-info p.reg-bd,
+.pop .login-form .cont-body .login-info p.reg-gndr,
+.pop .login-form .cont-body .login-info p.reg-lst-name,
+.pop .login-form .cont-body .login-info p.reg-st-name,
+.pop .login-form .cont-body .cont-info p.reg-bd,
+.pop .login-form .cont-body .cont-info p.reg-gndr,
+.pop .login-form .cont-body .cont-info p.reg-lst-name,
+.pop .login-form .cont-body .cont-info p.reg-st-name,
+.pop .login-form .f-info .reg-info p.reg-bd,
+.pop .login-form .f-info .reg-info p.reg-gndr,
+.pop .login-form .f-info .reg-info p.reg-lst-name,
+.pop .login-form .f-info .reg-info p.reg-st-name,
+.pop .login-form .f-info .login-info p.reg-bd,
+.pop .login-form .f-info .login-info p.reg-gndr,
+.pop .login-form .f-info .login-info p.reg-lst-name,
+.pop .login-form .f-info .login-info p.reg-st-name,
+.pop .login-form .f-info .cont-info p.reg-bd,
+.pop .login-form .f-info .cont-info p.reg-gndr,
+.pop .login-form .f-info .cont-info p.reg-lst-name,
+.pop .login-form .f-info .cont-info p.reg-st-name,
+.pop .cont-form .reg-body .reg-info p.reg-bd,
+.pop .cont-form .reg-body .reg-info p.reg-gndr,
+.pop .cont-form .reg-body .reg-info p.reg-lst-name,
+.pop .cont-form .reg-body .reg-info p.reg-st-name,
+.pop .cont-form .reg-body .login-info p.reg-bd,
+.pop .cont-form .reg-body .login-info p.reg-gndr,
+.pop .cont-form .reg-body .login-info p.reg-lst-name,
+.pop .cont-form .reg-body .login-info p.reg-st-name,
+.pop .cont-form .reg-body .cont-info p.reg-bd,
+.pop .cont-form .reg-body .cont-info p.reg-gndr,
+.pop .cont-form .reg-body .cont-info p.reg-lst-name,
+.pop .cont-form .reg-body .cont-info p.reg-st-name,
+.pop .cont-form .login-body .reg-info p.reg-bd,
+.pop .cont-form .login-body .reg-info p.reg-gndr,
+.pop .cont-form .login-body .reg-info p.reg-lst-name,
+.pop .cont-form .login-body .reg-info p.reg-st-name,
+.pop .cont-form .login-body .login-info p.reg-bd,
+.pop .cont-form .login-body .login-info p.reg-gndr,
+.pop .cont-form .login-body .login-info p.reg-lst-name,
+.pop .cont-form .login-body .login-info p.reg-st-name,
+.pop .cont-form .login-body .cont-info p.reg-bd,
+.pop .cont-form .login-body .cont-info p.reg-gndr,
+.pop .cont-form .login-body .cont-info p.reg-lst-name,
+.pop .cont-form .login-body .cont-info p.reg-st-name,
+.pop .cont-form .cont-body .reg-info p.reg-bd,
+.pop .cont-form .cont-body .reg-info p.reg-gndr,
+.pop .cont-form .cont-body .reg-info p.reg-lst-name,
+.pop .cont-form .cont-body .reg-info p.reg-st-name,
+.pop .cont-form .cont-body .login-info p.reg-bd,
+.pop .cont-form .cont-body .login-info p.reg-gndr,
+.pop .cont-form .cont-body .login-info p.reg-lst-name,
+.pop .cont-form .cont-body .login-info p.reg-st-name,
+.pop .cont-form .cont-body .cont-info p.reg-bd,
+.pop .cont-form .cont-body .cont-info p.reg-gndr,
+.pop .cont-form .cont-body .cont-info p.reg-lst-name,
+.pop .cont-form .cont-body .cont-info p.reg-st-name,
+.pop .cont-form .f-info .reg-info p.reg-bd,
+.pop .cont-form .f-info .reg-info p.reg-gndr,
+.pop .cont-form .f-info .reg-info p.reg-lst-name,
+.pop .cont-form .f-info .reg-info p.reg-st-name,
+.pop .cont-form .f-info .login-info p.reg-bd,
+.pop .cont-form .f-info .login-info p.reg-gndr,
+.pop .cont-form .f-info .login-info p.reg-lst-name,
+.pop .cont-form .f-info .login-info p.reg-st-name,
+.pop .cont-form .f-info .cont-info p.reg-bd,
+.pop .cont-form .f-info .cont-info p.reg-gndr,
+.pop .cont-form .f-info .cont-info p.reg-lst-name,
+.pop .cont-form .f-info .cont-info p.reg-st-name,
+.pop .f-win .reg-body .reg-info p.reg-bd,
+.pop .f-win .reg-body .reg-info p.reg-gndr,
+.pop .f-win .reg-body .reg-info p.reg-lst-name,
+.pop .f-win .reg-body .reg-info p.reg-st-name,
+.pop .f-win .reg-body .login-info p.reg-bd,
+.pop .f-win .reg-body .login-info p.reg-gndr,
+.pop .f-win .reg-body .login-info p.reg-lst-name,
+.pop .f-win .reg-body .login-info p.reg-st-name,
+.pop .f-win .reg-body .cont-info p.reg-bd,
+.pop .f-win .reg-body .cont-info p.reg-gndr,
+.pop .f-win .reg-body .cont-info p.reg-lst-name,
+.pop .f-win .reg-body .cont-info p.reg-st-name,
+.pop .f-win .login-body .reg-info p.reg-bd,
+.pop .f-win .login-body .reg-info p.reg-gndr,
+.pop .f-win .login-body .reg-info p.reg-lst-name,
+.pop .f-win .login-body .reg-info p.reg-st-name,
+.pop .f-win .login-body .login-info p.reg-bd,
+.pop .f-win .login-body .login-info p.reg-gndr,
+.pop .f-win .login-body .login-info p.reg-lst-name,
+.pop .f-win .login-body .login-info p.reg-st-name,
+.pop .f-win .login-body .cont-info p.reg-bd,
+.pop .f-win .login-body .cont-info p.reg-gndr,
+.pop .f-win .login-body .cont-info p.reg-lst-name,
+.pop .f-win .login-body .cont-info p.reg-st-name,
+.pop .f-win .cont-body .reg-info p.reg-bd,
+.pop .f-win .cont-body .reg-info p.reg-gndr,
+.pop .f-win .cont-body .reg-info p.reg-lst-name,
+.pop .f-win .cont-body .reg-info p.reg-st-name,
+.pop .f-win .cont-body .login-info p.reg-bd,
+.pop .f-win .cont-body .login-info p.reg-gndr,
+.pop .f-win .cont-body .login-info p.reg-lst-name,
+.pop .f-win .cont-body .login-info p.reg-st-name,
+.pop .f-win .cont-body .cont-info p.reg-bd,
+.pop .f-win .cont-body .cont-info p.reg-gndr,
+.pop .f-win .cont-body .cont-info p.reg-lst-name,
+.pop .f-win .cont-body .cont-info p.reg-st-name,
+.pop .f-win .f-info .reg-info p.reg-bd,
+.pop .f-win .f-info .reg-info p.reg-gndr,
+.pop .f-win .f-info .reg-info p.reg-lst-name,
+.pop .f-win .f-info .reg-info p.reg-st-name,
+.pop .f-win .f-info .login-info p.reg-bd,
+.pop .f-win .f-info .login-info p.reg-gndr,
+.pop .f-win .f-info .login-info p.reg-lst-name,
+.pop .f-win .f-info .login-info p.reg-st-name,
+.pop .f-win .f-info .cont-info p.reg-bd,
+.pop .f-win .f-info .cont-info p.reg-gndr,
+.pop .f-win .f-info .cont-info p.reg-lst-name,
+.pop .f-win .f-info .cont-info p.reg-st-name {
+  width: 50%;
+  position: relative;
+}
+.pop .reg-form .reg-body .reg-info p.reg-bd input, .pop .reg-form .reg-body .reg-info p.reg-gndr input,
+.pop .reg-form .reg-body .login-info p.reg-bd input,
+.pop .reg-form .reg-body .login-info p.reg-gndr input,
+.pop .reg-form .reg-body .cont-info p.reg-bd input,
+.pop .reg-form .reg-body .cont-info p.reg-gndr input,
+.pop .reg-form .login-body .reg-info p.reg-bd input,
+.pop .reg-form .login-body .reg-info p.reg-gndr input,
+.pop .reg-form .login-body .login-info p.reg-bd input,
+.pop .reg-form .login-body .login-info p.reg-gndr input,
+.pop .reg-form .login-body .cont-info p.reg-bd input,
+.pop .reg-form .login-body .cont-info p.reg-gndr input,
+.pop .reg-form .cont-body .reg-info p.reg-bd input,
+.pop .reg-form .cont-body .reg-info p.reg-gndr input,
+.pop .reg-form .cont-body .login-info p.reg-bd input,
+.pop .reg-form .cont-body .login-info p.reg-gndr input,
+.pop .reg-form .cont-body .cont-info p.reg-bd input,
+.pop .reg-form .cont-body .cont-info p.reg-gndr input,
+.pop .reg-form .f-info .reg-info p.reg-bd input,
+.pop .reg-form .f-info .reg-info p.reg-gndr input,
+.pop .reg-form .f-info .login-info p.reg-bd input,
+.pop .reg-form .f-info .login-info p.reg-gndr input,
+.pop .reg-form .f-info .cont-info p.reg-bd input,
+.pop .reg-form .f-info .cont-info p.reg-gndr input,
+.pop .login-form .reg-body .reg-info p.reg-bd input,
+.pop .login-form .reg-body .reg-info p.reg-gndr input,
+.pop .login-form .reg-body .login-info p.reg-bd input,
+.pop .login-form .reg-body .login-info p.reg-gndr input,
+.pop .login-form .reg-body .cont-info p.reg-bd input,
+.pop .login-form .reg-body .cont-info p.reg-gndr input,
+.pop .login-form .login-body .reg-info p.reg-bd input,
+.pop .login-form .login-body .reg-info p.reg-gndr input,
+.pop .login-form .login-body .login-info p.reg-bd input,
+.pop .login-form .login-body .login-info p.reg-gndr input,
+.pop .login-form .login-body .cont-info p.reg-bd input,
+.pop .login-form .login-body .cont-info p.reg-gndr input,
+.pop .login-form .cont-body .reg-info p.reg-bd input,
+.pop .login-form .cont-body .reg-info p.reg-gndr input,
+.pop .login-form .cont-body .login-info p.reg-bd input,
+.pop .login-form .cont-body .login-info p.reg-gndr input,
+.pop .login-form .cont-body .cont-info p.reg-bd input,
+.pop .login-form .cont-body .cont-info p.reg-gndr input,
+.pop .login-form .f-info .reg-info p.reg-bd input,
+.pop .login-form .f-info .reg-info p.reg-gndr input,
+.pop .login-form .f-info .login-info p.reg-bd input,
+.pop .login-form .f-info .login-info p.reg-gndr input,
+.pop .login-form .f-info .cont-info p.reg-bd input,
+.pop .login-form .f-info .cont-info p.reg-gndr input,
+.pop .cont-form .reg-body .reg-info p.reg-bd input,
+.pop .cont-form .reg-body .reg-info p.reg-gndr input,
+.pop .cont-form .reg-body .login-info p.reg-bd input,
+.pop .cont-form .reg-body .login-info p.reg-gndr input,
+.pop .cont-form .reg-body .cont-info p.reg-bd input,
+.pop .cont-form .reg-body .cont-info p.reg-gndr input,
+.pop .cont-form .login-body .reg-info p.reg-bd input,
+.pop .cont-form .login-body .reg-info p.reg-gndr input,
+.pop .cont-form .login-body .login-info p.reg-bd input,
+.pop .cont-form .login-body .login-info p.reg-gndr input,
+.pop .cont-form .login-body .cont-info p.reg-bd input,
+.pop .cont-form .login-body .cont-info p.reg-gndr input,
+.pop .cont-form .cont-body .reg-info p.reg-bd input,
+.pop .cont-form .cont-body .reg-info p.reg-gndr input,
+.pop .cont-form .cont-body .login-info p.reg-bd input,
+.pop .cont-form .cont-body .login-info p.reg-gndr input,
+.pop .cont-form .cont-body .cont-info p.reg-bd input,
+.pop .cont-form .cont-body .cont-info p.reg-gndr input,
+.pop .cont-form .f-info .reg-info p.reg-bd input,
+.pop .cont-form .f-info .reg-info p.reg-gndr input,
+.pop .cont-form .f-info .login-info p.reg-bd input,
+.pop .cont-form .f-info .login-info p.reg-gndr input,
+.pop .cont-form .f-info .cont-info p.reg-bd input,
+.pop .cont-form .f-info .cont-info p.reg-gndr input,
+.pop .f-win .reg-body .reg-info p.reg-bd input,
+.pop .f-win .reg-body .reg-info p.reg-gndr input,
+.pop .f-win .reg-body .login-info p.reg-bd input,
+.pop .f-win .reg-body .login-info p.reg-gndr input,
+.pop .f-win .reg-body .cont-info p.reg-bd input,
+.pop .f-win .reg-body .cont-info p.reg-gndr input,
+.pop .f-win .login-body .reg-info p.reg-bd input,
+.pop .f-win .login-body .reg-info p.reg-gndr input,
+.pop .f-win .login-body .login-info p.reg-bd input,
+.pop .f-win .login-body .login-info p.reg-gndr input,
+.pop .f-win .login-body .cont-info p.reg-bd input,
+.pop .f-win .login-body .cont-info p.reg-gndr input,
+.pop .f-win .cont-body .reg-info p.reg-bd input,
+.pop .f-win .cont-body .reg-info p.reg-gndr input,
+.pop .f-win .cont-body .login-info p.reg-bd input,
+.pop .f-win .cont-body .login-info p.reg-gndr input,
+.pop .f-win .cont-body .cont-info p.reg-bd input,
+.pop .f-win .cont-body .cont-info p.reg-gndr input,
+.pop .f-win .f-info .reg-info p.reg-bd input,
+.pop .f-win .f-info .reg-info p.reg-gndr input,
+.pop .f-win .f-info .login-info p.reg-bd input,
+.pop .f-win .f-info .login-info p.reg-gndr input,
+.pop .f-win .f-info .cont-info p.reg-bd input,
+.pop .f-win .f-info .cont-info p.reg-gndr input {
+  padding: 20px;
+  margin-top: 0;
+  cursor: pointer;
+}
+.pop .reg-form .reg-body .reg-info p.reg-bd input:hover, .pop .reg-form .reg-body .reg-info p.reg-gndr input:hover,
+.pop .reg-form .reg-body .login-info p.reg-bd input:hover,
+.pop .reg-form .reg-body .login-info p.reg-gndr input:hover,
+.pop .reg-form .reg-body .cont-info p.reg-bd input:hover,
+.pop .reg-form .reg-body .cont-info p.reg-gndr input:hover,
+.pop .reg-form .login-body .reg-info p.reg-bd input:hover,
+.pop .reg-form .login-body .reg-info p.reg-gndr input:hover,
+.pop .reg-form .login-body .login-info p.reg-bd input:hover,
+.pop .reg-form .login-body .login-info p.reg-gndr input:hover,
+.pop .reg-form .login-body .cont-info p.reg-bd input:hover,
+.pop .reg-form .login-body .cont-info p.reg-gndr input:hover,
+.pop .reg-form .cont-body .reg-info p.reg-bd input:hover,
+.pop .reg-form .cont-body .reg-info p.reg-gndr input:hover,
+.pop .reg-form .cont-body .login-info p.reg-bd input:hover,
+.pop .reg-form .cont-body .login-info p.reg-gndr input:hover,
+.pop .reg-form .cont-body .cont-info p.reg-bd input:hover,
+.pop .reg-form .cont-body .cont-info p.reg-gndr input:hover,
+.pop .reg-form .f-info .reg-info p.reg-bd input:hover,
+.pop .reg-form .f-info .reg-info p.reg-gndr input:hover,
+.pop .reg-form .f-info .login-info p.reg-bd input:hover,
+.pop .reg-form .f-info .login-info p.reg-gndr input:hover,
+.pop .reg-form .f-info .cont-info p.reg-bd input:hover,
+.pop .reg-form .f-info .cont-info p.reg-gndr input:hover,
+.pop .login-form .reg-body .reg-info p.reg-bd input:hover,
+.pop .login-form .reg-body .reg-info p.reg-gndr input:hover,
+.pop .login-form .reg-body .login-info p.reg-bd input:hover,
+.pop .login-form .reg-body .login-info p.reg-gndr input:hover,
+.pop .login-form .reg-body .cont-info p.reg-bd input:hover,
+.pop .login-form .reg-body .cont-info p.reg-gndr input:hover,
+.pop .login-form .login-body .reg-info p.reg-bd input:hover,
+.pop .login-form .login-body .reg-info p.reg-gndr input:hover,
+.pop .login-form .login-body .login-info p.reg-bd input:hover,
+.pop .login-form .login-body .login-info p.reg-gndr input:hover,
+.pop .login-form .login-body .cont-info p.reg-bd input:hover,
+.pop .login-form .login-body .cont-info p.reg-gndr input:hover,
+.pop .login-form .cont-body .reg-info p.reg-bd input:hover,
+.pop .login-form .cont-body .reg-info p.reg-gndr input:hover,
+.pop .login-form .cont-body .login-info p.reg-bd input:hover,
+.pop .login-form .cont-body .login-info p.reg-gndr input:hover,
+.pop .login-form .cont-body .cont-info p.reg-bd input:hover,
+.pop .login-form .cont-body .cont-info p.reg-gndr input:hover,
+.pop .login-form .f-info .reg-info p.reg-bd input:hover,
+.pop .login-form .f-info .reg-info p.reg-gndr input:hover,
+.pop .login-form .f-info .login-info p.reg-bd input:hover,
+.pop .login-form .f-info .login-info p.reg-gndr input:hover,
+.pop .login-form .f-info .cont-info p.reg-bd input:hover,
+.pop .login-form .f-info .cont-info p.reg-gndr input:hover,
+.pop .cont-form .reg-body .reg-info p.reg-bd input:hover,
+.pop .cont-form .reg-body .reg-info p.reg-gndr input:hover,
+.pop .cont-form .reg-body .login-info p.reg-bd input:hover,
+.pop .cont-form .reg-body .login-info p.reg-gndr input:hover,
+.pop .cont-form .reg-body .cont-info p.reg-bd input:hover,
+.pop .cont-form .reg-body .cont-info p.reg-gndr input:hover,
+.pop .cont-form .login-body .reg-info p.reg-bd input:hover,
+.pop .cont-form .login-body .reg-info p.reg-gndr input:hover,
+.pop .cont-form .login-body .login-info p.reg-bd input:hover,
+.pop .cont-form .login-body .login-info p.reg-gndr input:hover,
+.pop .cont-form .login-body .cont-info p.reg-bd input:hover,
+.pop .cont-form .login-body .cont-info p.reg-gndr input:hover,
+.pop .cont-form .cont-body .reg-info p.reg-bd input:hover,
+.pop .cont-form .cont-body .reg-info p.reg-gndr input:hover,
+.pop .cont-form .cont-body .login-info p.reg-bd input:hover,
+.pop .cont-form .cont-body .login-info p.reg-gndr input:hover,
+.pop .cont-form .cont-body .cont-info p.reg-bd input:hover,
+.pop .cont-form .cont-body .cont-info p.reg-gndr input:hover,
+.pop .cont-form .f-info .reg-info p.reg-bd input:hover,
+.pop .cont-form .f-info .reg-info p.reg-gndr input:hover,
+.pop .cont-form .f-info .login-info p.reg-bd input:hover,
+.pop .cont-form .f-info .login-info p.reg-gndr input:hover,
+.pop .cont-form .f-info .cont-info p.reg-bd input:hover,
+.pop .cont-form .f-info .cont-info p.reg-gndr input:hover,
+.pop .f-win .reg-body .reg-info p.reg-bd input:hover,
+.pop .f-win .reg-body .reg-info p.reg-gndr input:hover,
+.pop .f-win .reg-body .login-info p.reg-bd input:hover,
+.pop .f-win .reg-body .login-info p.reg-gndr input:hover,
+.pop .f-win .reg-body .cont-info p.reg-bd input:hover,
+.pop .f-win .reg-body .cont-info p.reg-gndr input:hover,
+.pop .f-win .login-body .reg-info p.reg-bd input:hover,
+.pop .f-win .login-body .reg-info p.reg-gndr input:hover,
+.pop .f-win .login-body .login-info p.reg-bd input:hover,
+.pop .f-win .login-body .login-info p.reg-gndr input:hover,
+.pop .f-win .login-body .cont-info p.reg-bd input:hover,
+.pop .f-win .login-body .cont-info p.reg-gndr input:hover,
+.pop .f-win .cont-body .reg-info p.reg-bd input:hover,
+.pop .f-win .cont-body .reg-info p.reg-gndr input:hover,
+.pop .f-win .cont-body .login-info p.reg-bd input:hover,
+.pop .f-win .cont-body .login-info p.reg-gndr input:hover,
+.pop .f-win .cont-body .cont-info p.reg-bd input:hover,
+.pop .f-win .cont-body .cont-info p.reg-gndr input:hover,
+.pop .f-win .f-info .reg-info p.reg-bd input:hover,
+.pop .f-win .f-info .reg-info p.reg-gndr input:hover,
+.pop .f-win .f-info .login-info p.reg-bd input:hover,
+.pop .f-win .f-info .login-info p.reg-gndr input:hover,
+.pop .f-win .f-info .cont-info p.reg-bd input:hover,
+.pop .f-win .f-info .cont-info p.reg-gndr input:hover {
+  margin-top: 0;
+}
+.pop .reg-form .reg-body .reg-info p.reg-bd select, .pop .reg-form .reg-body .reg-info p.reg-gndr select,
+.pop .reg-form .reg-body .login-info p.reg-bd select,
+.pop .reg-form .reg-body .login-info p.reg-gndr select,
+.pop .reg-form .reg-body .cont-info p.reg-bd select,
+.pop .reg-form .reg-body .cont-info p.reg-gndr select,
+.pop .reg-form .login-body .reg-info p.reg-bd select,
+.pop .reg-form .login-body .reg-info p.reg-gndr select,
+.pop .reg-form .login-body .login-info p.reg-bd select,
+.pop .reg-form .login-body .login-info p.reg-gndr select,
+.pop .reg-form .login-body .cont-info p.reg-bd select,
+.pop .reg-form .login-body .cont-info p.reg-gndr select,
+.pop .reg-form .cont-body .reg-info p.reg-bd select,
+.pop .reg-form .cont-body .reg-info p.reg-gndr select,
+.pop .reg-form .cont-body .login-info p.reg-bd select,
+.pop .reg-form .cont-body .login-info p.reg-gndr select,
+.pop .reg-form .cont-body .cont-info p.reg-bd select,
+.pop .reg-form .cont-body .cont-info p.reg-gndr select,
+.pop .reg-form .f-info .reg-info p.reg-bd select,
+.pop .reg-form .f-info .reg-info p.reg-gndr select,
+.pop .reg-form .f-info .login-info p.reg-bd select,
+.pop .reg-form .f-info .login-info p.reg-gndr select,
+.pop .reg-form .f-info .cont-info p.reg-bd select,
+.pop .reg-form .f-info .cont-info p.reg-gndr select,
+.pop .login-form .reg-body .reg-info p.reg-bd select,
+.pop .login-form .reg-body .reg-info p.reg-gndr select,
+.pop .login-form .reg-body .login-info p.reg-bd select,
+.pop .login-form .reg-body .login-info p.reg-gndr select,
+.pop .login-form .reg-body .cont-info p.reg-bd select,
+.pop .login-form .reg-body .cont-info p.reg-gndr select,
+.pop .login-form .login-body .reg-info p.reg-bd select,
+.pop .login-form .login-body .reg-info p.reg-gndr select,
+.pop .login-form .login-body .login-info p.reg-bd select,
+.pop .login-form .login-body .login-info p.reg-gndr select,
+.pop .login-form .login-body .cont-info p.reg-bd select,
+.pop .login-form .login-body .cont-info p.reg-gndr select,
+.pop .login-form .cont-body .reg-info p.reg-bd select,
+.pop .login-form .cont-body .reg-info p.reg-gndr select,
+.pop .login-form .cont-body .login-info p.reg-bd select,
+.pop .login-form .cont-body .login-info p.reg-gndr select,
+.pop .login-form .cont-body .cont-info p.reg-bd select,
+.pop .login-form .cont-body .cont-info p.reg-gndr select,
+.pop .login-form .f-info .reg-info p.reg-bd select,
+.pop .login-form .f-info .reg-info p.reg-gndr select,
+.pop .login-form .f-info .login-info p.reg-bd select,
+.pop .login-form .f-info .login-info p.reg-gndr select,
+.pop .login-form .f-info .cont-info p.reg-bd select,
+.pop .login-form .f-info .cont-info p.reg-gndr select,
+.pop .cont-form .reg-body .reg-info p.reg-bd select,
+.pop .cont-form .reg-body .reg-info p.reg-gndr select,
+.pop .cont-form .reg-body .login-info p.reg-bd select,
+.pop .cont-form .reg-body .login-info p.reg-gndr select,
+.pop .cont-form .reg-body .cont-info p.reg-bd select,
+.pop .cont-form .reg-body .cont-info p.reg-gndr select,
+.pop .cont-form .login-body .reg-info p.reg-bd select,
+.pop .cont-form .login-body .reg-info p.reg-gndr select,
+.pop .cont-form .login-body .login-info p.reg-bd select,
+.pop .cont-form .login-body .login-info p.reg-gndr select,
+.pop .cont-form .login-body .cont-info p.reg-bd select,
+.pop .cont-form .login-body .cont-info p.reg-gndr select,
+.pop .cont-form .cont-body .reg-info p.reg-bd select,
+.pop .cont-form .cont-body .reg-info p.reg-gndr select,
+.pop .cont-form .cont-body .login-info p.reg-bd select,
+.pop .cont-form .cont-body .login-info p.reg-gndr select,
+.pop .cont-form .cont-body .cont-info p.reg-bd select,
+.pop .cont-form .cont-body .cont-info p.reg-gndr select,
+.pop .cont-form .f-info .reg-info p.reg-bd select,
+.pop .cont-form .f-info .reg-info p.reg-gndr select,
+.pop .cont-form .f-info .login-info p.reg-bd select,
+.pop .cont-form .f-info .login-info p.reg-gndr select,
+.pop .cont-form .f-info .cont-info p.reg-bd select,
+.pop .cont-form .f-info .cont-info p.reg-gndr select,
+.pop .f-win .reg-body .reg-info p.reg-bd select,
+.pop .f-win .reg-body .reg-info p.reg-gndr select,
+.pop .f-win .reg-body .login-info p.reg-bd select,
+.pop .f-win .reg-body .login-info p.reg-gndr select,
+.pop .f-win .reg-body .cont-info p.reg-bd select,
+.pop .f-win .reg-body .cont-info p.reg-gndr select,
+.pop .f-win .login-body .reg-info p.reg-bd select,
+.pop .f-win .login-body .reg-info p.reg-gndr select,
+.pop .f-win .login-body .login-info p.reg-bd select,
+.pop .f-win .login-body .login-info p.reg-gndr select,
+.pop .f-win .login-body .cont-info p.reg-bd select,
+.pop .f-win .login-body .cont-info p.reg-gndr select,
+.pop .f-win .cont-body .reg-info p.reg-bd select,
+.pop .f-win .cont-body .reg-info p.reg-gndr select,
+.pop .f-win .cont-body .login-info p.reg-bd select,
+.pop .f-win .cont-body .login-info p.reg-gndr select,
+.pop .f-win .cont-body .cont-info p.reg-bd select,
+.pop .f-win .cont-body .cont-info p.reg-gndr select,
+.pop .f-win .f-info .reg-info p.reg-bd select,
+.pop .f-win .f-info .reg-info p.reg-gndr select,
+.pop .f-win .f-info .login-info p.reg-bd select,
+.pop .f-win .f-info .login-info p.reg-gndr select,
+.pop .f-win .f-info .cont-info p.reg-bd select,
+.pop .f-win .f-info .cont-info p.reg-gndr select {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  background: #e0e0e0;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+.pop .reg-form .reg-body .reg-info button,
+.pop .reg-form .reg-body .login-info button,
+.pop .reg-form .reg-body .cont-info button,
+.pop .reg-form .login-body .reg-info button,
+.pop .reg-form .login-body .login-info button,
+.pop .reg-form .login-body .cont-info button,
+.pop .reg-form .cont-body .reg-info button,
+.pop .reg-form .cont-body .login-info button,
+.pop .reg-form .cont-body .cont-info button,
+.pop .reg-form .f-info .reg-info button,
+.pop .reg-form .f-info .login-info button,
+.pop .reg-form .f-info .cont-info button,
+.pop .login-form .reg-body .reg-info button,
+.pop .login-form .reg-body .login-info button,
+.pop .login-form .reg-body .cont-info button,
+.pop .login-form .login-body .reg-info button,
+.pop .login-form .login-body .login-info button,
+.pop .login-form .login-body .cont-info button,
+.pop .login-form .cont-body .reg-info button,
+.pop .login-form .cont-body .login-info button,
+.pop .login-form .cont-body .cont-info button,
+.pop .login-form .f-info .reg-info button,
+.pop .login-form .f-info .login-info button,
+.pop .login-form .f-info .cont-info button,
+.pop .cont-form .reg-body .reg-info button,
+.pop .cont-form .reg-body .login-info button,
+.pop .cont-form .reg-body .cont-info button,
+.pop .cont-form .login-body .reg-info button,
+.pop .cont-form .login-body .login-info button,
+.pop .cont-form .login-body .cont-info button,
+.pop .cont-form .cont-body .reg-info button,
+.pop .cont-form .cont-body .login-info button,
+.pop .cont-form .cont-body .cont-info button,
+.pop .cont-form .f-info .reg-info button,
+.pop .cont-form .f-info .login-info button,
+.pop .cont-form .f-info .cont-info button,
+.pop .f-win .reg-body .reg-info button,
+.pop .f-win .reg-body .login-info button,
+.pop .f-win .reg-body .cont-info button,
+.pop .f-win .login-body .reg-info button,
+.pop .f-win .login-body .login-info button,
+.pop .f-win .login-body .cont-info button,
+.pop .f-win .cont-body .reg-info button,
+.pop .f-win .cont-body .login-info button,
+.pop .f-win .cont-body .cont-info button,
+.pop .f-win .f-info .reg-info button,
+.pop .f-win .f-info .login-info button,
+.pop .f-win .f-info .cont-info button {
+  padding: 11px 20px;
+  border: none;
+  cursor: pointer;
+  background: #b2beb5;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out all;
+}
+.pop .reg-form .reg-body .reg-info button:hover,
+.pop .reg-form .reg-body .login-info button:hover,
+.pop .reg-form .reg-body .cont-info button:hover,
+.pop .reg-form .login-body .reg-info button:hover,
+.pop .reg-form .login-body .login-info button:hover,
+.pop .reg-form .login-body .cont-info button:hover,
+.pop .reg-form .cont-body .reg-info button:hover,
+.pop .reg-form .cont-body .login-info button:hover,
+.pop .reg-form .cont-body .cont-info button:hover,
+.pop .reg-form .f-info .reg-info button:hover,
+.pop .reg-form .f-info .login-info button:hover,
+.pop .reg-form .f-info .cont-info button:hover,
+.pop .login-form .reg-body .reg-info button:hover,
+.pop .login-form .reg-body .login-info button:hover,
+.pop .login-form .reg-body .cont-info button:hover,
+.pop .login-form .login-body .reg-info button:hover,
+.pop .login-form .login-body .login-info button:hover,
+.pop .login-form .login-body .cont-info button:hover,
+.pop .login-form .cont-body .reg-info button:hover,
+.pop .login-form .cont-body .login-info button:hover,
+.pop .login-form .cont-body .cont-info button:hover,
+.pop .login-form .f-info .reg-info button:hover,
+.pop .login-form .f-info .login-info button:hover,
+.pop .login-form .f-info .cont-info button:hover,
+.pop .cont-form .reg-body .reg-info button:hover,
+.pop .cont-form .reg-body .login-info button:hover,
+.pop .cont-form .reg-body .cont-info button:hover,
+.pop .cont-form .login-body .reg-info button:hover,
+.pop .cont-form .login-body .login-info button:hover,
+.pop .cont-form .login-body .cont-info button:hover,
+.pop .cont-form .cont-body .reg-info button:hover,
+.pop .cont-form .cont-body .login-info button:hover,
+.pop .cont-form .cont-body .cont-info button:hover,
+.pop .cont-form .f-info .reg-info button:hover,
+.pop .cont-form .f-info .login-info button:hover,
+.pop .cont-form .f-info .cont-info button:hover,
+.pop .f-win .reg-body .reg-info button:hover,
+.pop .f-win .reg-body .login-info button:hover,
+.pop .f-win .reg-body .cont-info button:hover,
+.pop .f-win .login-body .reg-info button:hover,
+.pop .f-win .login-body .login-info button:hover,
+.pop .f-win .login-body .cont-info button:hover,
+.pop .f-win .cont-body .reg-info button:hover,
+.pop .f-win .cont-body .login-info button:hover,
+.pop .f-win .cont-body .cont-info button:hover,
+.pop .f-win .f-info .reg-info button:hover,
+.pop .f-win .f-info .login-info button:hover,
+.pop .f-win .f-info .cont-info button:hover {
+  color: #f5fffa;
+}
+.pop .reg-form,
+.pop .cont-form {
+  height: 550px;
+}
+.pop .about_iuvo {
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.pop .about_iuvo .about_cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+  gap: 10px;
+  flex-direction: column;
+  width: 750px;
+  height: 550px;
+  padding: 0 25px;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.pop .about_iuvo .about_cont p {
+  text-align: center;
+  font-size: 16px;
+}
+.pop .about_iuvo .about_cont::-webkit-scrollbar {
+  width: 10px;
+}
+.pop .about_iuvo .about_cont::-webkit-scrollbar-track {
+  background: #b2beb5;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+}
+.pop .about_iuvo .about_cont::-webkit-scrollbar-thumb {
+  background: rgba(162, 132, 94, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+.pop .about_iuvo .about_cont::-webkit-scrollbar-thumb:hover {
+  background: rgba(162, 132, 94, 0.5);
+}
+.pop .about_iuvo h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.pop .about_iuvo h1 img {
+  width: 60px;
+}
+.pop .about_iuvo h1 span {
+  font-size: 50px;
+  color: #a2845e;
+  font-weight: 400;
+}
+.pop .about_iuvo .demo_display {
+  margin-top: 20px;
+}
+.pop .about_iuvo .demo_display .demo {
+  width: 600px;
+  height: 320px;
+}
+.pop .about_iuvo .demo_display .demo .demo_cont {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.pop .about_iuvo .demo_display .demo .demo_cont img {
+  width: 100%;
+  position: absolute;
+}
+.pop .about_iuvo .demo_display .demo .demo_cont video {
+  top: 6px;
+  left: 78px;
+  width: 444px;
+  position: absolute;
+}
+
+.alert_info_pop {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out all;
+  overflow: hidden;
+}
+.alert_info_pop.active {
+  width: 100%;
+  height: 100%;
+}
+
+.loader_pop {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out all;
+  overflow: hidden;
+  z-index: 100000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
+.loader_pop.active {
+  width: 100%;
+  height: 100%;
+}
+.loader_pop div {
+  background: #fff;
+  padding: 20px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 4s infinite rotation;
+}
+.loader_pop div img {
+  width: 100px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(360deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(-360deg) scale(1);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
